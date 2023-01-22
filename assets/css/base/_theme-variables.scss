@@ -1,0 +1,127 @@
+$inner-container: $reflex-lg;
+$container: 100%;
+
+$blue: #0046ad;
+$blue_light: #80A2D4;
+$teal: #00a5af;
+$plum: #B71668;
+$yellow: #ffcd00;
+$green: #B0D959;
+
+$white: #ffffff;
+$red: #FF0000;
+$concrete: #f2f2f2;
+$light_white: #f2f3f5;;
+$light_white2: #f8f9fc;
+$alto: #dfdfdf;
+$black: #000000;
+$light_black: #282828;
+$codGray: #181818;
+$dark_grey: #646464;
+$light_grey: #f5f0eb;
+$gallery: #eeeeee;
+$mineShaft: #313131;
+$silver: #cccccc;
+$doveGray: #666666;
+$gray: #818181;
+$tuna: #3a3a47;
+$waterLoo: #818198;
+$mercury: #E9E9E9;
+$boulder: #757575;
+$porcelain: #F5F6F7;
+//layout colors
+
+
+//border color
+$border1: #d8d8d8;;
+$border2: #e1e5ec;
+$border3: #dfdfdf;
+
+
+//Brand Colors
+$site_background: #F4F4F4;
+$background_alt_color:#F9f9f9;
+$primary_color: #0F4C81;
+$heading_color: #333;
+$text_color: $black;
+$text_color2: #6A6A6A;
+$hover_color: darken($primary_color, 20%);
+$secondary_menu_background: #edf1f5;
+$excerpt_color: #4d4d4d;
+
+
+//Box shadows
+$box-shadow: 0 0 15px rgba(30, 30, 30, .15);
+$box_shadow1: 0 5px 30px 0 rgba(39, 39, 39, 0.15);
+$box_shadow2: 0 50px 100px 0 rgba(3,3,3,.02);
+$box_shadow3: 0 30px 70px 0 rgba(223,227,234,.5);
+$box_shadow4: -1px 1px 0px 0px rgba(223,223,223,1);
+$box_shadow5: 0 1px 3px rgba(0,0,0,0.1);
+$box_shadow6: 0 20px 36px 0 rgba(93, 124, 181, .25), 0 5px 12px -3px rgba(0, 0, 0, .20);
+$box_shadow_header: 2px 2px 6px rgba(0, 0, 0, 0.20);
+
+
+//Font
+$mainFont: 'Lexend', sans-serif;
+$headerFont: 'Fira Sans Condensed', sans-serif;
+
+//Images
+$menu_icon: url('assets/images/icon_menu.svg');
+$close_icon: url('assets/images/icon_menu_x.svg');
+
+//SVG Icons
+$hamburger_icon_open: url(assets/images/hamburger-icon.svg);
+$hamburger_icon_close: url(assets/images/hamburger-icon-x.svg);
+$checkmark: url(assets/images/check-mark.svg);
+$checkmark_color: url(assets/images/check-mark-color.svg);
+$checkmark_white: url(assets/images/check-mark-white.svg);
+
+//Footer Colors
+$footer_bg_color: #000001;
+$footer_hover_color: #0799d7;
+
+
+// New Homepage Colors
+
+// Layouts
+$color1: #0F4D81;
+$color2: #0F817C;
+$color3: #0F1481;
+$text_color: #2B3339;
+$text_color1: #4E555A;
+$icon_color1: #CFDBE6;
+$dark_teal: #0F817C;
+
+// Border
+$border_color: #87A6C0;
+$border_color1: #373B96;
+$border_color3: #0F1481;
+
+// Icons 
+$icon_color: #FBB658;
+
+// Fonts 
+$heading_font_64_300: normal normal 300 4rem/4.375rem Fira Sans Condensed, sans-serif;
+$heading_font_64_600: normal normal 300 4rem/4.375rem Fira Sans Condensed, sans-serif;
+$heading_font_23_400: normal normal 400 1.438rem/2rem Fira Sans Condensed, sans-serif;
+$heading_font_44_300: normal normal 300 2.75rem/3.375rem Fira Sans Condensed, sans-serif;
+$heading_font_44_400: normal normal 400 2.75rem/3.375rem Fira Sans Condensed, sans-serif;
+$heading_font_44_600: normal normal 600 2.75rem/3.375rem Fira Sans Condensed, sans-serif;
+$heading_font_45_600: normal normal 600 2.813rem/3.375rem Fira Sans Condensed, sans-serif;
+$heading_font_30_400: normal normal 400 1.875rem/2.5rem Fira Sans Condensed, sans-serif;
+$heading_font_32_400: normal normal 400 2rem/2.625rem Fira Sans Condensed, sans-serif;
+$text_font_14_400: normal normal 400 0.875rem/1.375rem Lexend, sans-serif;
+$text_font_16_400: normal normal 400 1rem/1.5rem Lexend, sans-serif;
+$text_font_18_400: normal normal 400 1.125/1.75rem Lexend, sans-serif;
+$btn_font_16_600: normal normal 600 1rem/1rem Lexend, sans-serif;
+$text_font_23_600: normal normal 600 1.438rem/2rem Fira Sans Condensed, sans-serif;
+$icon_font_64_300: normal normal 300 4rem/4.375rem Fira Sans Condensed, sans-serif;
+
+// Mobile Fonts
+$heading_font_20_400: normal normal 400 1.25rem/1.75rem Fira Sans Condensed, sans-serif;
+$heading_font_25_400: normal normal 400 1.563rem/2.031rem Fira Sans Condensed, sans-serif;
+$heading_font_31_300: normal normal 300 1.938rem/2.325rem Fira Sans Condensed, sans-serif;
+$heading_font_31_400: normal normal 400 1.938rem/2.325rem Fira Sans Condensed, sans-serif;
+$heading_font_31_600: normal normal 600 1.938rem/2.325rem Fira Sans Condensed, sans-serif;
+$heading_font_39_300: normal normal 300 2.438rem/2.656rem Fira Sans Condensed, sans-serif;
+$icon_font_39_300: normal normal 300 2.438rem/2.656rem Fira Sans Condensed, sans-serif;
