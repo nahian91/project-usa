@@ -1,0 +1,56 @@
+.services {
+    padding: 80px 0;
+    &__signle {
+        box-shadow: 0px 10px 30px 0px rgba(205, 205, 205, 0.33);
+        padding: 25px;
+        border: 1px solid #ddd;
+        position: relative;
+    }
+    &__number {
+        position: absolute;
+        right: 20px;
+        top: 0px;
+        font-size: 70px;
+        color: #f1f1f1;
+        transition: 0.3s;
+      }
+      &__icon {
+        font-size: 25px;
+        background-color: $primary_color;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        color: #fff;
+        border-radius: 50%;
+      }
+      &__title {
+        font-size: 24px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+      &__desc {
+        font-size: 16px;
+      }
+      &__btn {
+        text-transform: capitalize;
+        display: inline-block;
+        margin-top: 20px;
+        position: relative;
+        &:hover{
+            color: $primary_color;
+            &:before{
+                width: 100%;
+            }
+        }
+        &:before {
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 2px;
+            background-color: $primary_color;
+            bottom: -5px;
+            transition: .3s;
+          }
+      }
+}

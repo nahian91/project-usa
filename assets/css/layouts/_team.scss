@@ -1,0 +1,48 @@
+.team{
+    background-color: #f4f4f4;
+    padding: 120px 0;
+    &__single {
+        border: 1px solid #f4f4f4;
+        background-color: #fff;
+        img {
+            width: 100%;
+            vertical-align: middle;
+        }
+    }
+    &__content {
+        text-align: center;
+        padding: 20px;
+        h4 {
+            text-transform: capitalize;
+            font-size: 26px;
+            span {
+                display: block;
+                font-size: 16px;
+                font-weight: 300;
+            }
+        }
+    }
+    &__link {
+        display: inline-block;
+        margin-top: 15px;
+        text-transform: capitalize;
+        position: relative;
+        &:after {
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 2px;
+            background-color: #333;
+            left: 0;
+            bottom: -5px;
+            transition: .3s;
+        }
+        &:hover{
+            color: $primary_color;
+            &:after {
+                width: 100%;
+                background-color: $primary_color;
+            }
+        }
+    }
+}

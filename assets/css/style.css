@@ -1,6 +1,72 @@
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ---------------------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.bg {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 2;
+}
+.bg:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: 0.95;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.btn {
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 18px;
+  border-radius: 3px;
+  color: #fff;
+}
+.btn.btn-primary {
+  background-color: #0060FF;
+  padding: 10px 40px;
+}
+.btn.btn-primary:hover {
+  background-color: #333;
+}
+.btn.btn-secondary {
+  border: 2px solid #0060FF;
+  padding: 8px 40px;
+}
+.btn.btn-secondary:hover {
+  background-color: #0060FF;
+}
+
 :root {
   --reflex-columns: 12;
   --reflex-grid-spacing: 15px;
@@ -1260,73 +1326,406 @@
   }
 }
 
-/* lexend-regular - latin */
-@font-face {
-  font-family: "Lexend";
-  font-style: normal;
-  font-weight: 400;
-  src: url("assets/font/lexend-v17-latin-regular.eot"); /* IE9 Compat Modes */
-  src: local(""), url("assets/font/lexend-v17-latin-regular.eot?#iefix") format("embedded-opentype"), url("assets/font/lexend-v17-latin-regular.woff2") format("woff2"), url("assets/font/lexend-v17-latin-regular.woff") format("woff"), url("assets/font/lexend-v17-latin-regular.ttf") format("truetype"), url("assets/font/lexend-v17-latin-regular.svg#Lexend") format("svg"); /* Legacy iOS */
-}
-/* lexend-600 - latin */
-@font-face {
-  font-family: "Lexend";
-  font-style: normal;
-  font-weight: 600;
-  src: url("assets/font/lexend-v17-latin-600.eot"); /* IE9 Compat Modes */
-  src: local(""), url("assets/font/lexend-v17-latin-600.eot?#iefix") format("embedded-opentype"), url("assets/font/lexend-v17-latin-600.woff2") format("woff2"), url("assets/font/lexend-v17-latin-600.woff") format("woff"), url("assets/font/lexend-v17-latin-600.ttf") format("truetype"), url("assets/font/lexend-v17-latin-600.svg#Lexend") format("svg"); /* Legacy iOS */
-}
-h1 {
-  font: normal normal 400 1.938rem/2.325rem Fira Sans Condensed, sans-serif;
-  color: #000000;
-  margin: 18px 0px;
-}
-@media (min-width: 768px) {
-  h1 {
-    font: normal normal 600 2.813rem/3.375rem Fira Sans Condensed, sans-serif;
-  }
-}
-
-h2 {
-  color: #2B3339;
-}
-h3 {
-  color: #2B3339;
-}
-h4 {
-  font: normal normal 400 1.438rem/2rem Fira Sans Condensed, sans-serif;
-  color: #2B3339;
-}
-
-h5 {
-  font: normal normal 400 1.25rem/1.75rem Fira Sans Condensed, sans-serif;
-  color: #2B3339;
-}
-
-h6 {
-  font: normal normal 400 1rem/1.5rem Lexend, sans-serif;
-  color: #2B3339;
-}
-
-p,
-div {
-  font: normal normal 400 1rem/1.5rem Lexend, sans-serif;
-  color: #2B3339;
-}
-p.small-alternate,
-div.small-alternate {
+body {
   font-family: "Lexend", sans-serif;
-  font-weight: normal;
+}
+
+.header-top {
+  background-color: #111;
+}
+.header-top__left a {
+  color: #fff;
+  margin-right: 15px;
+}
+.header-top__social a {
+  color: #fff;
+  margin-left: 15px;
+  display: inline-block;
+}
+.header-top__social a:hover {
+  color: #0060FF;
+}
+
+.header__logo {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+}
+.header__nav {
+  display: flex;
+  justify-content: center;
+}
+.header__nav li {
+  position: relative;
+}
+.header__nav li a {
+  display: block;
+  padding: 30px 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+}
+.header__nav li a:hover {
+  color: #0060FF;
+}
+.header__nav li ul {
+  position: absolute;
+  background-color: #0060FF;
+  z-index: 9;
+  width: 380px;
+  padding: 20px;
+  left: 15px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.header__nav li ul li {
+  padding: 10px 0;
+  color: #fff;
+}
+.header__nav li ul li a {
+  color: #fff;
+  padding: 0;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.header__nav li ul li a:hover {
+  color: #333;
+}
+.header__nav li:hover ul {
+  opacity: 1;
+  visibility: visible;
+}
+.header__nav li.has-child {
+  position: relative;
+}
+.header__nav li.has-child:before {
+  content: "\f107" "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  position: absolute;
+  right: 0;
+  top: 32px;
+  font-size: 12px;
+}
+
+.bannar {
+  color: #fff;
+  padding: 120px 0;
+}
+.bannar__subtitle {
+  position: relative;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding-left: 50px;
+}
+.bannar__subtitle:before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: #0060FF;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+.bannar__title {
+  font-size: 60px;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.bannar__desc {
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 30px;
+}
+.bannar__btn {
+  margin-top: 30px;
+  margin-right: 15px;
+}
+.bannar__form {
+  background-color: #fff;
+  color: #333;
+  padding: 25px;
+}
+.bannar__input {
+  position: relative;
+  margin-bottom: 20px;
+}
+.bannar__input input, .bannar__input select {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 500;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  font-family: "Lexend";
+  color: #333;
+}
+.bannar__input input::-moz-placeholder, .bannar__input select::-moz-placeholder {
+  color: #333;
+  opacity: 1;
+}
+.bannar__input input:-ms-input-placeholder, .bannar__input select:-ms-input-placeholder {
+  color: #333;
+  opacity: 1;
+}
+.bannar__input input::placeholder, .bannar__input select::placeholder {
+  color: #333;
+  opacity: 1;
+}
+.bannar__input i {
+  position: absolute;
+  right: 10px;
+  top: 12PX;
+  font-size: 15px;
+  color: #0060FF;
+}
+.bannar__form-title {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.bannar__input-btn {
+  background-color: #0060FF;
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.bannar__input-btn:hover {
+  background-color: #333;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-title span {
+  display: block;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+}
+.section-title span:after {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color: #0060FF;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.section-title h4 {
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.services {
+  padding: 80px 0;
+}
+.services__signle {
+  box-shadow: 0px 10px 30px 0px rgba(205, 205, 205, 0.33);
+  padding: 25px;
+  border: 1px solid #ddd;
+  position: relative;
+}
+.services__number {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  font-size: 70px;
+  color: #f1f1f1;
+  transition: 0.3s;
+}
+.services__icon {
+  font-size: 25px;
+  background-color: #0060FF;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  border-radius: 50%;
+}
+.services__title {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+.services__desc {
+  font-size: 16px;
+}
+.services__btn {
+  text-transform: capitalize;
+  display: inline-block;
+  margin-top: 20px;
+  position: relative;
+}
+.services__btn:hover {
+  color: #0060FF;
+}
+.services__btn:hover:before {
+  width: 100%;
+}
+.services__btn:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #0060FF;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+.team {
+  background-color: #f4f4f4;
+  padding: 120px 0;
+}
+.team__single {
+  border: 1px solid #f4f4f4;
+  background-color: #fff;
+}
+.team__single img {
+  width: 100%;
+  vertical-align: middle;
+}
+.team__content {
+  text-align: center;
+  padding: 20px;
+}
+.team__content h4 {
+  text-transform: capitalize;
+  font-size: 26px;
+}
+.team__content h4 span {
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+}
+.team__link {
+  display: inline-block;
+  margin-top: 15px;
+  text-transform: capitalize;
+  position: relative;
+}
+.team__link:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #333;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+.team__link:hover {
+  color: #0060FF;
+}
+.team__link:hover:after {
+  width: 100%;
+  background-color: #0060FF;
+}
+
+.footer {
+  padding: 60px 0;
+  color: #fff;
+}
+.footer__title {
+  font-size: 26px;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 25px;
+  position: relative;
+  padding-bottom: 15px;
+}
+.footer__title:before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #0060FF;
+  bottom: 0;
+}
+.footer__desc {
+  font-size: 15px;
+  line-height: 22px;
+}
+.footer__social {
+  margin-top: 25px;
+}
+.footer__social a {
+  color: #fff;
+  border: 1px solid #fff;
+  width: 30px;
+  display: inline-block;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
   font-size: 14px;
-  line-height: 20px;
-  color: #000000;
+  border-radius: 50%;
+  margin-right: 10px;
 }
-p a,
-div a {
-  color: #0F4C81;
-  text-decoration: none;
+.footer__social a:hover {
+  background-color: #0060FF;
+  border-color: #0060FF;
 }
-p a:hover,
-div a:hover {
-  color: #000000;
+.footer__list {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #555;
+}
+.footer__list i {
+  margin-right: 5px;
+}
+.footer__list:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.footer__list-link {
+  color: #fff;
+  position: relative;
+  padding-left: 25px;
+  text-transform: capitalize;
+}
+.footer__list-link:before {
+  content: "\f061";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  left: 0;
+  position: absolute;
+}
+.footer__list-link:hover {
+  color: #0060FF;
+}
+
+.footer-bottom {
+  background-color: #111;
+  color: #fff;
+  padding: 10px 0;
+}
+.footer-bottom__link {
+  color: #fff;
+  margin-left: 10px;
+}
+.footer-bottom__link:hover {
+  color: #0060FF;
 }/*# sourceMappingURL=style.css.map */
