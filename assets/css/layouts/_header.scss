@@ -19,10 +19,23 @@
 }
 
 .header{
+    position: relative;
+    z-index: 2;
+    &:before {
+        position: absolute;
+        content: "";
+        width: 450px;
+        height: 100%;
+        background-color: $primary_color;
+        z-index: -1;
+        transform: skew(15deg);
+        left: -60px;
+    }
     &__logo {
         text-transform: uppercase;
         font-size: 30px;
         font-weight: 700;
+        color: #fff;
     }
     &__nav {
         display: flex;

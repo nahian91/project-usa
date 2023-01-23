@@ -53,18 +53,18 @@ a {
   color: #fff;
 }
 .btn.btn-primary {
-  background-color: #0060FF;
+  background-color: #104cba;
   padding: 10px 40px;
 }
 .btn.btn-primary:hover {
   background-color: #333;
 }
 .btn.btn-secondary {
-  border: 2px solid #0060FF;
+  border: 2px solid #104cba;
   padding: 8px 40px;
 }
 .btn.btn-secondary:hover {
-  background-color: #0060FF;
+  background-color: #104cba;
 }
 
 :root {
@@ -1343,13 +1343,28 @@ body {
   display: inline-block;
 }
 .header-top__social a:hover {
-  color: #0060FF;
+  color: #104cba;
 }
 
+.header {
+  position: relative;
+  z-index: 2;
+}
+.header:before {
+  position: absolute;
+  content: "";
+  width: 450px;
+  height: 100%;
+  background-color: #104cba;
+  z-index: -1;
+  transform: skew(15deg);
+  left: -60px;
+}
 .header__logo {
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 700;
+  color: #fff;
 }
 .header__nav {
   display: flex;
@@ -1366,11 +1381,11 @@ body {
   font-size: 15px;
 }
 .header__nav li a:hover {
-  color: #0060FF;
+  color: #104cba;
 }
 .header__nav li ul {
   position: absolute;
-  background-color: #0060FF;
+  background-color: #104cba;
   z-index: 9;
   width: 380px;
   padding: 20px;
@@ -1425,7 +1440,7 @@ body {
   position: absolute;
   width: 40px;
   height: 2px;
-  background-color: #0060FF;
+  background-color: #104cba;
   top: 50%;
   transform: translateY(-50%);
   left: 0;
@@ -1484,7 +1499,7 @@ body {
   right: 10px;
   top: 12PX;
   font-size: 15px;
-  color: #0060FF;
+  color: #104cba;
 }
 .bannar__form-title {
   text-align: center;
@@ -1494,7 +1509,7 @@ body {
   margin-bottom: 15px;
 }
 .bannar__input-btn {
-  background-color: #0060FF;
+  background-color: #104cba;
   width: 100%;
   border: 0;
   padding: 10px;
@@ -1527,7 +1542,7 @@ body {
   content: "";
   width: 60px;
   height: 2px;
-  background-color: #0060FF;
+  background-color: #104cba;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -1563,7 +1578,7 @@ body {
   position: absolute;
   width: 5px;
   height: 5px;
-  background-color: #0060FF;
+  background-color: #104cba;
   border-radius: 50%;
   right: -13px;
   top: 9px;
@@ -1588,7 +1603,7 @@ body {
 }
 .services__icon {
   font-size: 25px;
-  background-color: #0060FF;
+  background-color: #104cba;
   width: 60px;
   height: 60px;
   text-align: center;
@@ -1611,7 +1626,7 @@ body {
   position: relative;
 }
 .services__btn:hover {
-  color: #0060FF;
+  color: #104cba;
 }
 .services__btn:hover:before {
   width: 100%;
@@ -1621,7 +1636,7 @@ body {
   content: "";
   width: 0;
   height: 2px;
-  background-color: #0060FF;
+  background-color: #104cba;
   bottom: -5px;
   transition: 0.3s;
 }
@@ -1668,18 +1683,18 @@ body {
   transition: 0.3s;
 }
 .team__link:hover {
-  color: #0060FF;
+  color: #104cba;
 }
 .team__link:hover:after {
   width: 100%;
-  background-color: #0060FF;
+  background-color: #104cba;
 }
 
 .contact {
   padding: 60px 0;
 }
 .contact__info {
-  background-color: #0060FF;
+  background-color: #104cba;
   color: #fff;
   padding: 20px;
   border-radius: 7px;
@@ -1695,7 +1710,7 @@ body {
 }
 .contact__info-icon i {
   background-color: #fff;
-  color: #0060FF;
+  color: #104cba;
   width: 30px;
   height: 30px;
   text-align: center;
@@ -1730,8 +1745,15 @@ body {
   padding: 15px;
   font-weight: 500;
 }
+.contact__form-msg {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 15px;
+  font-weight: 500;
+  height: 110px;
+}
 .contact__form-submit {
-  background-color: #0060FF;
+  background-color: #104cba;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
@@ -1762,7 +1784,7 @@ body {
   content: "";
   width: 50px;
   height: 2px;
-  background-color: #0060FF;
+  background-color: #104cba;
   bottom: 0;
 }
 .footer__desc {
@@ -1785,8 +1807,8 @@ body {
   margin-right: 10px;
 }
 .footer__social a:hover {
-  background-color: #0060FF;
-  border-color: #0060FF;
+  background-color: #104cba;
+  border-color: #104cba;
 }
 .footer__list {
   margin-bottom: 10px;
@@ -1815,7 +1837,7 @@ body {
   position: absolute;
 }
 .footer__list-link:hover {
-  color: #0060FF;
+  color: #104cba;
 }
 
 .footer-bottom {
@@ -1828,5 +1850,5 @@ body {
   margin-left: 10px;
 }
 .footer-bottom__link:hover {
-  color: #0060FF;
+  color: #104cba;
 }/*# sourceMappingURL=style.css.map */

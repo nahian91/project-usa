@@ -54,6 +54,13 @@
         padding: 15px;
         font-weight: 500;
     }
+    &__form-msg {
+        width: 100%;
+        border: 1px solid #ddd;
+        padding: 15px;
+        font-weight: 500;
+        height: 110px;
+    }
     &__form-submit {
         background-color: $primary_color;
         color: #fff;

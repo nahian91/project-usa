@@ -19,7 +19,7 @@
     <div class="container">
         <div class="grid align-center">
             <div class="col-4 col-bleed-x">
-                <div class="contact__info">
+                <div class="contact__info bg" style="background-image: url('assets/img/home-two.jpg');">
                     <h4 class="contact__info-heading">Speak With <br> Expert Engineers.</h4>
                     <ul class="contact__info-list">
                         <li class="contact__info-item">
@@ -64,6 +64,9 @@
                         </div>
                         <div class="col-6">
                             <input type="phone" class="contact__form-input" placeholder="Your Phone">
+                        </div>
+                        <div class="col-12">
+                            <textarea class="contact__form-msg" placeholder="Your Message"></textarea>
                         </div>
                         <div class="col-12">
                             <input class="contact__form-submit" type="submit" value="Send Message">
