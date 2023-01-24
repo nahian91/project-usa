@@ -73,6 +73,12 @@
 
     <!-- jQuery JS -->
     <script src="assets/js/jquery.min.js"></script>
+    <!-- Slick JS -->
+    <script src="assets/js/slick-slider/slick.min.js"></script>
+    <!-- Waypoint JS -->
+    <script src="assets/js/waypoint.min.js"></script>
+    <!-- Counter JS -->
+    <script src="assets/js/counterup.min.js"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
 </body>

@@ -13,6 +13,10 @@ a{
     text-decoration: none;
     transition: .3s;
 }
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
 
 // Background 
 .bg{
@@ -20,6 +24,7 @@ a{
     background-position: center;
     position: relative;
     z-index: 2;
+    color: $white;
     &:before{
         content: "";
         position: absolute;

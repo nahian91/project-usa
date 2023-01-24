@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title -->
     <title>Project USA</title>
-    <!-- Boxicons CSS -->
+    <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="assets/css/plugins/font-awesome/css/font-awesome.min.css">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="assets/css/plugins/slick-slider/slick.css">
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
