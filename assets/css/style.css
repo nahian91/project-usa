@@ -1521,10 +1521,11 @@ body {
   padding: 10px;
   cursor: pointer;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
   font-size: 16px;
   transition: 0.3s;
+  font-family: "poppins";
 }
 .bannar__input-btn:hover {
   background-color: #333;
@@ -1594,6 +1595,7 @@ body {
   left: -50px;
   bottom: -100px;
   padding-top: 75px;
+  border: 5px solid #ffffff;
 }
 
 .section-title {
@@ -1658,6 +1660,9 @@ body {
 
 .services {
   padding: 80px 0;
+  background-size: cover;
+  background-position: center;
+  border-top: 3px solid #104cba;
 }
 .services__signle {
   box-shadow: 0px 0px 50px 11px rgba(95, 138, 236, 0.05);
@@ -1665,6 +1670,7 @@ body {
   border: 1px solid #f1f1f1;
   position: relative;
   transition: 0.3s;
+  background-color: #ffffff;
 }
 .services__signle:hover {
   border-color: #104cba;
@@ -2017,6 +2023,39 @@ body {
 .contact__maps {
   width: 100%;
   vertical-align: middle;
+}
+
+.cta {
+  position: relative;
+  z-index: 2;
+  padding: 50px 0;
+  color: #fff;
+}
+
+.cta:before {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 100%;
+  background-color: #292e47;
+  left: 0;
+  top: 0;
+}
+
+.cta:after {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  background-color: #24283F;
+  z-index: -1;
+}
+
+.cta h4 {
+  font-size: 26px;
+  text-transform: capitalize;
 }
 
 .footer {

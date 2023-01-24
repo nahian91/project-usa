@@ -42,9 +42,9 @@
 </section>
 
 <!-- About -->
-<section class="about" style="background-image:url('assets/img/about-bg.jpg')">
+<section class="about">
     <div class="container">
-        <div class="grid">
+        <div class="grid align-center">
             <div class="col-7">
                 <span class="about__subtitle">about us</span>
                 <h4 class="about__title">Product Development for Better Business</h4>
@@ -67,7 +67,7 @@
 </section>
 
 <!-- Services -->
-<section class="services">
+<section class="services" style="background-image:url('assets/img/about-bg.jpg')">
     <div class="container">
         <div class="grid">
             <div class="col-12">
@@ -260,6 +260,19 @@
         </div>
     </div>
 </section>
+
+<section class="cta">
+    <div class="container">
+       <div class="grid align-center">
+          <div class="col-6">
+             <h4>best solution for your business <span>the can be used on larger scale projectss as well as small scale projectss</span></h4>
+          </div>
+          <div class="col-6 text-center">
+             <a href="#" class="btn btn-primary">contact us</a>
+          </div>
+       </div>
+    </div>
+ </section>
 
 <section class="process">
     <div class="container">
