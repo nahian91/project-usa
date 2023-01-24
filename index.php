@@ -359,5 +359,71 @@
         </div>
     </div>
 </section> 
+
+<section class="blog">
+    <div class="container">
+        <div class="grid">
+            <div class="col-12">
+                <div class="section-title">
+                    <span>explore your knowledge</span>
+                    <h4>See Our Latest Blog Posts </h4>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="col-4">
+                <div class="blog__single">
+                    <div class="blog__img">
+                        <img src="assets/img/blog-1.jpg" alt="">
+                        <a href="" class="blog__cat">web design</a>
+                    </div>
+                    <div class="blog__content">
+                        <div class="blog__meta">
+                            <a href="" class="blog__user"><i class="fa-regular fa-user"></i> admin</a>
+                            <a href="" class="blog__date"><i class="fa-regular fa-user"></i> 23 jan 2023</a>
+                        </div>
+                        <h4 class="blog__title"><a href="" class="blog__title-link">Tips To Make Your Workforce A Security</a></h4>
+                        <p class="blog__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem aliquid provident voluptatibus consequuntur ut nulla hic harum ab praesentium aperiam!</p>
+                        <a href="" class="btn btn-primary blog__btn">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="blog__single">
+                    <div class="blog__img">
+                        <img src="assets/img/blog-2.jpg" alt="">
+                        <a href="" class="blog__cat">web design</a>
+                    </div>
+                    <div class="blog__content">
+                        <div class="blog__meta">
+                            <a href="" class="blog__user"><i class="fa-regular fa-user"></i> admin</a>
+                            <a href="" class="blog__date"><i class="fa-regular fa-user"></i> 23 jan 2023</a>
+                        </div>
+                        <h4 class="blog__title"><a href="" class="blog__title-link">Tips To Make Your Workforce A Security</a></h4>
+                        <p class="blog__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem aliquid provident voluptatibus consequuntur ut nulla hic harum ab praesentium aperiam!</p>
+                        <a href="" class="btn btn-primary blog__btn">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="blog__single">
+                    <div class="blog__img">
+                        <img src="assets/img/blog-3.jpg" alt="">
+                        <a href="" class="blog__cat">web design</a>
+                    </div>
+                    <div class="blog__content">
+                        <div class="blog__meta">
+                            <a href="" class="blog__user"><i class="fa-regular fa-user"></i> admin</a>
+                            <a href="" class="blog__date"><i class="fa-regular fa-user"></i> 23 jan 2023</a>
+                        </div>
+                        <h4 class="blog__title"><a href="" class="blog__title-link">Tips To Make Your Workforce A Security</a></h4>
+                        <p class="blog__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem aliquid provident voluptatibus consequuntur ut nulla hic harum ab praesentium aperiam!</p>
+                        <a href="" class="btn btn-primary blog__btn">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     
 <?php include 'inc/footer.php'; ?>
