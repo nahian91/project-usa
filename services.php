@@ -14,5 +14,75 @@
         </div>
     </div>
 </section>
+
+<!-- Services -->
+<section class="services" style="background-image:url('assets/img/about-bg.jpg')">
+    <div class="container">
+        <div class="grid">
+            <div class="col-12">
+                <div class="section-title">
+                    <div class="section-title__subtitle">explore your knowledge</div>
+                    <h4 class="section-title__title service-title"></h4>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="col-4">
+                <div class="services__single">
+                    <span class="services__number">01</span>
+                    <i class="fa-solid fa-laptop services__icon"></i>
+                    <h4 class="services__title">Web Design</h4>
+                    <p class="services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                    <a class="services__btn" href="">read more</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="services__single">
+                    <span class="services__number">02</span>
+                    <i class="fa-solid fa-code services__icon"></i>
+                    <h4 class="services__title">Web Development</h4>
+                    <p class="services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                    <a class="services__btn" href="">read more</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="services__single">
+                    <span class="services__number">03</span>
+                    <i class="fa-solid fa-mobile services__icon"></i>
+                    <h4 class="services__title">Responsive Design</h4>
+                    <p class="services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                    <a class="services__btn" href="">read more</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="services__single">
+                    <span class="services__number">04</span>
+                    <i class="fa-solid fa-wand-magic-sparkles services__icon"></i>
+                    <h4 class="services__title">Graphics Design</h4>
+                    <p class="services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                    <a class="services__btn" href="">read more</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="services__single">
+                    <span class="services__number">05</span>
+                    <i class="fa-solid fa-wand-magic services__icon"></i>
+                    <h4 class="services__title">Digital Marketing</h4>
+                    <p class="services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                    <a class="services__btn" href="">read more</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="services__single">
+                    <span class="services__number">06</span>
+                    <i class="fa-solid fa-clock services__icon"></i>
+                    <h4 class="services__title">Support</h4>
+                    <p class="services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                    <a class="services__btn" href="">read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     
 <?php include 'inc/footer.php'; ?>

@@ -78,6 +78,7 @@
     <!-- Waypoint JS -->
     <script src="assets/js/waypoint.min.js"></script>
     <!-- Counter JS -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="assets/js/counterup.min.js"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>

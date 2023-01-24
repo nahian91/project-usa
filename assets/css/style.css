@@ -57,20 +57,31 @@ img {
   font-size: 18px;
   border-radius: 3px;
   color: #fff;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+.btn:hover:before {
+  top: 0;
+}
+.btn:before {
+  position: absolute;
+  content: "";
+  background-color: #333;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: -100%;
+  transition: 0.3s;
+  z-index: -1;
 }
 .btn.btn-primary {
   background-color: #104cba;
   padding: 10px 40px;
 }
-.btn.btn-primary:hover {
-  background-color: #333;
-}
 .btn.btn-secondary {
   border: 2px solid #104cba;
   padding: 8px 40px;
-}
-.btn.btn-secondary:hover {
-  background-color: #104cba;
 }
 
 :root {
@@ -1342,11 +1353,13 @@ body {
 .header-top__left a {
   color: #fff;
   margin-right: 15px;
+  font-size: 15px;
 }
 .header-top__social a {
   color: #fff;
   margin-left: 15px;
   display: inline-block;
+  font-size: 14px;
 }
 .header-top__social a:hover {
   color: #104cba;
@@ -1354,7 +1367,16 @@ body {
 
 .header {
   position: relative;
-  z-index: 2;
+  z-index: 99;
+}
+.header.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  transition: 0.3s;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
 }
 .header:before {
   position: absolute;
@@ -1379,21 +1401,34 @@ body {
 .header__nav li {
   position: relative;
 }
-.header__nav li a {
+.header__nav li > a {
   display: block;
   padding: 30px 15px;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 15px;
+  position: relative;
 }
-.header__nav li a:hover {
+.header__nav li > a:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #104cba;
+  bottom: 25px;
+  transition: 0.3s;
+}
+.header__nav li > a:hover {
   color: #104cba;
+}
+.header__nav li > a:hover:before {
+  width: 25px;
 }
 .header__nav li ul {
   position: absolute;
   background-color: #104cba;
   z-index: 9;
-  width: 380px;
+  width: 300px;
   padding: 20px;
   left: 15px;
   opacity: 0;
@@ -1411,7 +1446,8 @@ body {
   text-transform: capitalize;
 }
 .header__nav li ul li a:hover {
-  color: #333;
+  padding-left: 5px;
+  color: #fff;
 }
 .header__nav li:hover ul {
   opacity: 1;
@@ -1600,9 +1636,9 @@ body {
 
 .section-title {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
-.section-title span {
+.section-title__subtitle {
   display: block;
   font-size: 20px;
   text-transform: capitalize;
@@ -1611,7 +1647,7 @@ body {
   margin-bottom: 10px;
   padding-bottom: 15px;
 }
-.section-title span:after {
+.section-title__subtitle:after {
   position: absolute;
   content: "";
   width: 60px;
@@ -1621,10 +1657,14 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
-.section-title h4 {
+.section-title__title {
   font-size: 40px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-weight: 700;
+  height: 60px;
+}
+.section-title span {
+  display: none;
 }
 
 .breadcumb {
@@ -1664,7 +1704,7 @@ body {
   background-position: center;
   border-top: 3px solid #104cba;
 }
-.services__signle {
+.services__single {
   box-shadow: 0px 0px 50px 11px rgba(95, 138, 236, 0.05);
   padding: 25px;
   border: 1px solid #f1f1f1;
@@ -1672,7 +1712,7 @@ body {
   transition: 0.3s;
   background-color: #ffffff;
 }
-.services__signle:hover {
+.services__single:hover {
   border-color: #104cba;
 }
 .services__number {
@@ -1749,34 +1789,44 @@ body {
   background-size: cover;
   padding: 120px 0;
 }
-.team__single {
-  border: 1px solid #104cba;
-  background-color: #fff;
-  border-radius: 50% 50% 0 0;
-  position: relative;
+.team__single:hover .team__img {
+  border-color: #104cba;
 }
 .team__img {
-  width: 100%;
-  height: 250px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   background-size: cover;
   background-position: top center;
-  border: 2px solid #104cba;
+  border: 2px solid #f4f4f4;
+  margin: 0 auto;
+  display: block;
+  transition: 0.3s;
+  position: relative;
+  z-index: 2;
 }
 .team__content {
   text-align: center;
   padding: 20px;
+  padding-top: 20px;
+  background-color: #f4f4f4;
+  transition: 0.3s;
+  margin-top: -70px;
+  padding-top: 80px;
+  border: 2px solid transparent;
 }
 .team__content h4 {
   text-transform: capitalize;
-  font-size: 26px;
+  font-size: 22px;
   color: #104cba;
+  font-weight: 600;
 }
 .team__content h4 span {
   display: block;
   font-size: 16px;
   font-weight: 500;
   color: #333;
+  font-style: italic;
 }
 .team__link {
   display: inline-block;
@@ -1914,7 +1964,7 @@ body {
   padding: 5px 20px;
   border-radius: 7px;
   text-transform: capitalize;
-  font-weight: 600;
+  font-weight: 500;
 }
 .blog__content {
   padding: 20px;
@@ -1934,8 +1984,9 @@ body {
   color: #104cba;
 }
 .blog__title {
-  font-size: 26px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
 }
 .blog__title-link:hover {
   color: #104cba;
@@ -1945,7 +1996,8 @@ body {
   margin: 15px 0;
 }
 .blog__btn {
-  padding: 5px 30px;
+  font-size: 16px;
+  padding: 5px 30px !important;
 }
 
 .contact {

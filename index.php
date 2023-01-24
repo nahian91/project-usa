@@ -1,7 +1,7 @@
 <?php include 'inc/header.php'; ?>
 
 <!-- Bannar -->
-<section class="bannar bg" style="background-image: url('assets/img/bannar.jpg');">
+<section class="bannar" style="background-image: url('assets/img/bannar.jpg');">
     <div class="container">
         <div class="grid align-center">
             <div class="col-md-8">
@@ -72,62 +72,62 @@
         <div class="grid">
             <div class="col-12">
                 <div class="section-title">
-                    <span>services we offering</span>
-                    <h4>High quality products and services</h4>
+                    <div class="section-title__subtitle">explore your knowledge</div>
+                    <h4 class="section-title__title service-title"></h4>
                 </div>
             </div>
         </div>
         <div class="grid">
             <div class="col-4">
-                <div class="services__signle">
+                <div class="services__single">
                     <span class="services__number">01</span>
-                    <i class="fa-regular fa-user services__icon"></i>
-                    <h4 class="services__title">Web Development</h4>
+                    <i class="fa-solid fa-laptop services__icon"></i>
+                    <h4 class="services__title">Web Design</h4>
                     <p class="services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                     <a class="services__btn" href="">read more</a>
                 </div>
             </div>
             <div class="col-4">
-                <div class="services__signle">
+                <div class="services__single">
                     <span class="services__number">02</span>
-                    <i class="fa-regular fa-user services__icon"></i>
-                    <h4 class="services__title">UI/UX Design</h4>
-                    <p class="services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
-                    <a class="services__btn" href="">read more</a>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="services__signle">
-                    <span class="services__number">03</span>
-                    <i class="fa-regular fa-user services__icon"></i>
+                    <i class="fa-solid fa-code services__icon"></i>
                     <h4 class="services__title">Web Development</h4>
                     <p class="services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                     <a class="services__btn" href="">read more</a>
                 </div>
             </div>
             <div class="col-4">
-                <div class="services__signle">
-                    <span class="services__number">04</span>
-                    <i class="fa-regular fa-user services__icon"></i>
-                    <h4 class="services__title">Software Services</h4>
+                <div class="services__single">
+                    <span class="services__number">03</span>
+                    <i class="fa-solid fa-mobile services__icon"></i>
+                    <h4 class="services__title">Responsive Design</h4>
                     <p class="services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                     <a class="services__btn" href="">read more</a>
                 </div>
             </div>
             <div class="col-4">
-                <div class="services__signle">
+                <div class="services__single">
+                    <span class="services__number">04</span>
+                    <i class="fa-solid fa-wand-magic-sparkles services__icon"></i>
+                    <h4 class="services__title">Graphics Design</h4>
+                    <p class="services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                    <a class="services__btn" href="">read more</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="services__single">
                     <span class="services__number">05</span>
-                    <i class="fa-regular fa-user services__icon"></i>
+                    <i class="fa-solid fa-wand-magic services__icon"></i>
                     <h4 class="services__title">Digital Marketing</h4>
                     <p class="services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                     <a class="services__btn" href="">read more</a>
                 </div>
             </div>
             <div class="col-4">
-                <div class="services__signle">
+                <div class="services__single">
                     <span class="services__number">06</span>
-                    <i class="fa-regular fa-user services__icon"></i>
-                    <h4 class="services__title">IT Consultation</h4>
+                    <i class="fa-solid fa-clock services__icon"></i>
+                    <h4 class="services__title">Support</h4>
                     <p class="services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                     <a class="services__btn" href="">read more</a>
                 </div>
@@ -142,26 +142,26 @@
         <div class="grid">
             <div class="col-3">
                 <div class="counter__single">
-                    <h4 class="counter__number">100</h4>
+                    <h4 class="counter__number">587</h4>
                     <p class="counter__title">projects</p>
                 </div>
             </div>
             <div class="col-3">
                 <div class="counter__single">
-                    <h4 class="counter__number">100</h4>
-                    <p class="counter__title">projects</p>
+                    <h4 class="counter__number">28</h4>
+                    <p class="counter__title">Customers</p>
                 </div>
             </div>
             <div class="col-3">
                 <div class="counter__single">
-                    <h4 class="counter__number">100</h4>
-                    <p class="counter__title">projects</p>
+                    <h4 class="counter__number">9</h4>
+                    <p class="counter__title">Awards</p>
                 </div>
             </div>
             <div class="col-3">
                 <div class="counter__single">
-                    <h4 class="counter__number">100</h4>
-                    <p class="counter__title">projects</p>
+                    <h4 class="counter__number">5245</h4>
+                    <p class="counter__title">cup of coffees</p>
                 </div>
             </div>
         </div>
@@ -174,8 +174,8 @@
         <div class="grid">
             <div class="col-12">
                 <div class="section-title">
-                    <span>services we offering</span>
-                    <h4>High quality products and services</h4>
+                    <div class="section-title__subtitle">explore your knowledge</div>
+                    <h4 class="section-title__title team-title"></h4>
                 </div>
             </div>
         </div>
@@ -184,7 +184,7 @@
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/1.jpg');"></div>
                     <div class="team__content">
-                        <h4 class="team__title">john doe <span class="team__desg">web developer</span></h4>
+                        <h4 class="team__title">David Ospina <span class="team__desg">web developer</span></h4>
                         <a href="" class="team__link">view profile</a>
                     </div>
                 </div>
@@ -193,7 +193,7 @@
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/2.jpg');"></div>
                     <div class="team__content">
-                        <h4 class="team__title">john doe <span class="team__desg">web developer</span></h4>
+                        <h4 class="team__title">Selena Marianova <span class="team__desg">web developer</span></h4>
                         <a href="" class="team__link">view profile</a>
                     </div>
                 </div>
@@ -202,7 +202,7 @@
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/3.jpg');"></div>
                     <div class="team__content">
-                        <h4 class="team__title">john doe <span class="team__desg">web developer</span></h4>
+                        <h4 class="team__title">Nihad Abdullayev <span class="team__desg">web developer</span></h4>
                         <a href="" class="team__link">view profile</a>
                     </div>
                 </div>
@@ -211,7 +211,7 @@
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/4.jpg');"></div>
                     <div class="team__content">
-                        <h4 class="team__title">john doe <span class="team__desg">web developer</span></h4>
+                        <h4 class="team__title">Lena Angelova <span class="team__desg">web developer</span></h4>
                         <a href="" class="team__link">view profile</a>
                     </div>
                 </div>
@@ -220,7 +220,7 @@
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/5.jpg');"></div>
                     <div class="team__content">
-                        <h4 class="team__title">john doe <span class="team__desg">web developer</span></h4>
+                        <h4 class="team__title">Eljif Elmas <span class="team__desg">web developer</span></h4>
                         <a href="" class="team__link">view profile</a>
                     </div>
                 </div>
@@ -229,7 +229,7 @@
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/6.jpg');"></div>
                     <div class="team__content">
-                        <h4 class="team__title">john doe <span class="team__desg">web developer</span></h4>
+                        <h4 class="team__title">Sercan Ipekcioglu <span class="team__desg">web developer</span></h4>
                         <a href="" class="team__link">view profile</a>
                     </div>
                 </div>
@@ -238,7 +238,7 @@
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/7.jpg');"></div>
                     <div class="team__content">
-                        <h4 class="team__title">john doe <span class="team__desg">web developer</span></h4>
+                        <h4 class="team__title">Jahangir Seven <span class="team__desg">web developer</span></h4>
                         <a href="" class="team__link">view profile</a>
                     </div>
                 </div>
@@ -247,7 +247,7 @@
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/8.jpg');"></div>
                     <div class="team__content">
-                        <h4 class="team__title">john doe <span class="team__desg">web developer</span></h4>
+                        <h4 class="team__title">Alina Regaslova <span class="team__desg">web developer</span></h4>
                         <a href="" class="team__link">view profile</a>
                     </div>
                 </div>
@@ -279,8 +279,8 @@
         <div class="grid">
             <div class="col-12">
                 <div class="section-title">
-                    <span>services we offering</span>
-                    <h4>our working process</h4>
+                    <div class="section-title__subtitle">explore your knowledge</div>
+                    <h4 class="section-title__title process-title"></h4>
                 </div>
             </div>
         </div>
@@ -334,8 +334,8 @@
         <div class="grid">
             <div class="col-12">
                 <div class="section-title">
-                    <span>our testimonials</span>
-                    <h4>What our customers say about us?</h4>
+                    <div class="section-title__subtitle">explore your knowledge</div>
+                    <h4 class="section-title__title testimonial-title"></h4>
                 </div>
             </div>
         </div>
@@ -344,27 +344,27 @@
                 <div class="testimonial__items">
                     <div class="testimonial__single">
                         <img class="testimonial__single-img" src="assets/img/testi1.png" alt="">
-                        <h4 class="testimonial__single-name">john doe <span class="testimonial__single-desg">web developer</span></h4>
+                        <h4 class="testimonial__single-name">Donald B. Mitchell <span class="testimonial__single-desg">web developer</span></h4>
                         <p>Nullam tincidunt augue eget dui volu tpat, vitae ultri ces lectus posuere. Duis urna lacus, efficitur non.</p>
                     </div>
                     <div class="testimonial__single">
                         <img class="testimonial__single-img" src="assets/img/testi2.png" alt="">
-                        <h4 class="testimonial__single-name">john doe <span class="testimonial__single-desg">web developer</span></h4>
+                        <h4 class="testimonial__single-name">Bennie N. Bannister <span class="testimonial__single-desg">web developer</span></h4>
                         <p>Nullam tincidunt augue eget dui volu tpat, vitae ultri ces lectus posuere. Duis urna lacus, efficitur non.</p>
                     </div>
                     <div class="testimonial__single">
                         <img class="testimonial__single-img" src="assets/img/testi3.png" alt="">
-                        <h4 class="testimonial__single-name">john doe <span class="testimonial__single-desg">web developer</span></h4>
+                        <h4 class="testimonial__single-name">Federico M. Upton <span class="testimonial__single-desg">web developer</span></h4>
                         <p>Nullam tincidunt augue eget dui volu tpat, vitae ultri ces lectus posuere. Duis urna lacus, efficitur non.</p>
                     </div>
                     <div class="testimonial__single">
                         <img class="testimonial__single-img" src="assets/img/testi1.png" alt="">
-                        <h4 class="testimonial__single-name">john doe <span class="testimonial__single-desg">web developer</span></h4>
+                        <h4 class="testimonial__single-name">Julio M. McDowell <span class="testimonial__single-desg">web developer</span></h4>
                         <p>Nullam tincidunt augue eget dui volu tpat, vitae ultri ces lectus posuere. Duis urna lacus, efficitur non.</p>
                     </div>
                     <div class="testimonial__single">
                         <img class="testimonial__single-img" src="assets/img/testi2.png" alt="">
-                        <h4 class="testimonial__single-name">john doe <span class="testimonial__single-desg">web developer</span></h4>
+                        <h4 class="testimonial__single-name">Michael S. Pearson <span class="testimonial__single-desg">web developer</span></h4>
                         <p>Nullam tincidunt augue eget dui volu tpat, vitae ultri ces lectus posuere. Duis urna lacus, efficitur non.</p>
                     </div>
                 </div>
@@ -378,8 +378,8 @@
         <div class="grid">
             <div class="col-12">
                 <div class="section-title">
-                    <span>explore your knowledge</span>
-                    <h4>See Our Latest Blog Posts </h4>
+                    <div class="section-title__subtitle">explore your knowledge</div>
+                    <h4 class="section-title__title blog-title"></h4>
                 </div>
             </div>
         </div>
@@ -393,9 +393,9 @@
                     <div class="blog__content">
                         <div class="blog__meta">
                             <a href="" class="blog__user"><i class="fa-regular fa-user"></i> admin</a>
-                            <a href="" class="blog__date"><i class="fa-regular fa-user"></i> 23 jan 2023</a>
+                            <a href="" class="blog__date"><i class="fa-regular fa-user"></i> 03 jan 2023</a>
                         </div>
-                        <h4 class="blog__title"><a href="" class="blog__title-link">Tips To Make Your Workforce A Security</a></h4>
+                        <h4 class="blog__title"><a href="" class="blog__title-link">Voice Usabilit Consideration Partially Visually Hidden</a></h4>
                         <p class="blog__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem aliquid provident voluptatibus consequuntur ut nulla hic harum ab praesentium aperiam!</p>
                         <a href="" class="btn btn-primary blog__btn">read more</a>
                     </div>
@@ -405,14 +405,14 @@
                 <div class="blog__single">
                     <div class="blog__img">
                         <img src="assets/img/blog-2.jpg" alt="">
-                        <a href="" class="blog__cat">web design</a>
+                        <a href="" class="blog__cat">software development</a>
                     </div>
                     <div class="blog__content">
                         <div class="blog__meta">
                             <a href="" class="blog__user"><i class="fa-regular fa-user"></i> admin</a>
-                            <a href="" class="blog__date"><i class="fa-regular fa-user"></i> 23 jan 2023</a>
+                            <a href="" class="blog__date"><i class="fa-regular fa-user"></i> 16 jan 2023</a>
                         </div>
-                        <h4 class="blog__title"><a href="" class="blog__title-link">Tips To Make Your Workforce A Security</a></h4>
+                        <h4 class="blog__title"><a href="" class="blog__title-link">How Create Vanil Java Script Gant Chart Adding Task</a></h4>
                         <p class="blog__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem aliquid provident voluptatibus consequuntur ut nulla hic harum ab praesentium aperiam!</p>
                         <a href="" class="btn btn-primary blog__btn">read more</a>
                     </div>
@@ -422,14 +422,14 @@
                 <div class="blog__single">
                     <div class="blog__img">
                         <img src="assets/img/blog-3.jpg" alt="">
-                        <a href="" class="blog__cat">web design</a>
+                        <a href="" class="blog__cat">web Development</a>
                     </div>
                     <div class="blog__content">
                         <div class="blog__meta">
                             <a href="" class="blog__user"><i class="fa-regular fa-user"></i> admin</a>
-                            <a href="" class="blog__date"><i class="fa-regular fa-user"></i> 23 jan 2023</a>
+                            <a href="" class="blog__date"><i class="fa-regular fa-user"></i> 25 jan 2023</a>
                         </div>
-                        <h4 class="blog__title"><a href="" class="blog__title-link">Tips To Make Your Workforce A Security</a></h4>
+                        <h4 class="blog__title"><a href="" class="blog__title-link">Smashing Podcast Episode 47 Soueidan Accessibility</a></h4>
                         <p class="blog__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem aliquid provident voluptatibus consequuntur ut nulla hic harum ab praesentium aperiam!</p>
                         <a href="" class="btn btn-primary blog__btn">read more</a>
                     </div>
