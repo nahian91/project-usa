@@ -50,10 +50,10 @@
                 <h4 class="about__title">Product Development for Better Business</h4>
                 <p class="about__desc">There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form, by injected humour variations of the suffered alteration in some form. </p>
                 <span class="about__item"><i class="fa-solid fa-check-double"></i> Fusce consectetur purus ac aliquam aliquet.</span>
-                <span class="about__item"><i class="fa-solid fa-check-double"></i> Fusce consectetur purus ac aliquam aliquet.</span>
-                <span class="about__item"><i class="fa-solid fa-check-double"></i> Fusce consectetur purus ac aliquam aliquet.</span>
-                <span class="about__item"><i class="fa-solid fa-check-double"></i> Fusce consectetur purus ac aliquam aliquet.</span>
-                <span class="about__item"><i class="fa-solid fa-check-double"></i> Fusce consectetur purus ac aliquam aliquet.</span>
+                <span class="about__item"><i class="fa-solid fa-check-double"></i> Pellentesque non arcu sollicitudin, pellentesque augue id.</span>
+                <span class="about__item"><i class="fa-solid fa-check-double"></i> Vestibulum blandit justo felis dapibus varius more-or-less.</span>
+                <span class="about__item"><i class="fa-solid fa-check-double"></i> Quisque varius tellus a pretium, ac facilisis massa placerat.</span>
+                <span class="about__item"><i class="fa-solid fa-check-double"></i> Lorem consectetur purus ac aliquam aliquet.</span>
                 <a href="" class="btn btn-primary about__btn">read more</a>
             </div>
             <div class="col-5">

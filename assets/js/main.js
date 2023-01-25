@@ -15,15 +15,16 @@ $(document).ready(function(){
         time: 1000
     });
 
-    var typed = new Typed('.service-title', {
-        strings: ['We Provide Exclusive Service'],
+    
+    var typed = new Typed('.team-title', {
+        strings: ['See Our Skilled Expert Team'],
         smartBackspace: true, // Default value
         loop: true,
         typeSpeed: 100,
         backSpeed : 50
     });
-    var typed = new Typed('.team-title', {
-        strings: ['See Our Skilled Expert Team'],
+    var typed = new Typed('.service-title', {
+        strings: ['We Provide Exclusive Service'],
         smartBackspace: true, // Default value
         loop: true,
         typeSpeed: 100,
