@@ -19,14 +19,6 @@
 <section class="team">
     <div class="container">
         <div class="grid">
-            <div class="col-12">
-                <div class="section-title">
-                    <div class="section-title__subtitle">explore your knowledge</div>
-                    <h4 class="section-title__title team-title"></h4>
-                </div>
-            </div>
-        </div>
-        <div class="grid">
             <div class="col-3">
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/1.jpg');"></div>

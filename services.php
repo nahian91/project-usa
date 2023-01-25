@@ -19,14 +19,6 @@
 <section class="services" style="background-image:url('assets/img/about-bg.jpg')">
     <div class="container">
         <div class="grid">
-            <div class="col-12">
-                <div class="section-title">
-                    <div class="section-title__subtitle">explore your knowledge</div>
-                    <h4 class="section-title__title service-title"></h4>
-                </div>
-            </div>
-        </div>
-        <div class="grid">
             <div class="col-4">
                 <div class="services__single">
                     <span class="services__number">01</span>

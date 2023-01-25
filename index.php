@@ -73,7 +73,7 @@
             <div class="col-12">
                 <div class="section-title">
                     <div class="section-title__subtitle">explore your knowledge</div>
-                    <h4 class="section-title__title service-title"></h4>
+                    <span class="section-title__title service-title"></span>
                 </div>
             </div>
         </div>
@@ -175,7 +175,7 @@
             <div class="col-12">
                 <div class="section-title">
                     <div class="section-title__subtitle">explore your knowledge</div>
-                    <h4 class="section-title__title team-title"></h4>
+                    <span class="section-title__title team-title"></span>
                 </div>
             </div>
         </div>
@@ -280,7 +280,7 @@
             <div class="col-12">
                 <div class="section-title">
                     <div class="section-title__subtitle">explore your knowledge</div>
-                    <h4 class="section-title__title process-title"></h4>
+                    <span class="section-title__title process-title"></span>
                 </div>
             </div>
         </div>
@@ -335,7 +335,7 @@
             <div class="col-12">
                 <div class="section-title">
                     <div class="section-title__subtitle">explore your knowledge</div>
-                    <h4 class="section-title__title testimonial-title"></h4>
+                    <span class="section-title__title testimonial-title"></span>
                 </div>
             </div>
         </div>
@@ -379,7 +379,7 @@
             <div class="col-12">
                 <div class="section-title">
                     <div class="section-title__subtitle">explore your knowledge</div>
-                    <h4 class="section-title__title blog-title"></h4>
+                    <span class="section-title__title blog-title"></span>
                 </div>
             </div>
         </div>

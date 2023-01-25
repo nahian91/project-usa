@@ -76,11 +76,11 @@ img {
   z-index: -1;
 }
 .btn.btn-primary {
-  background-color: #104cba;
+  background-color: #27ae60;
   padding: 10px 40px;
 }
 .btn.btn-secondary {
-  border: 2px solid #104cba;
+  border: 2px solid #27ae60;
   padding: 8px 40px;
 }
 
@@ -1362,7 +1362,7 @@ body {
   font-size: 14px;
 }
 .header-top__social a:hover {
-  color: #104cba;
+  color: #27ae60;
 }
 
 .header {
@@ -1383,7 +1383,7 @@ body {
   content: "";
   width: 450px;
   height: 100%;
-  background-color: #104cba;
+  background-color: #27ae60;
   z-index: -1;
   transform: skew(15deg);
   left: -60px;
@@ -1414,19 +1414,19 @@ body {
   content: "";
   width: 0;
   height: 2px;
-  background-color: #104cba;
+  background-color: #27ae60;
   bottom: 25px;
   transition: 0.3s;
 }
 .header__nav li > a:hover {
-  color: #104cba;
+  color: #27ae60;
 }
 .header__nav li > a:hover:before {
   width: 25px;
 }
 .header__nav li ul {
   position: absolute;
-  background-color: #104cba;
+  background-color: #27ae60;
   z-index: 9;
   width: 300px;
   padding: 20px;
@@ -1482,7 +1482,7 @@ body {
   position: absolute;
   width: 40px;
   height: 2px;
-  background-color: #104cba;
+  background-color: #27ae60;
   top: 50%;
   transform: translateY(-50%);
   left: 0;
@@ -1541,7 +1541,7 @@ body {
   right: 10px;
   top: 12PX;
   font-size: 15px;
-  color: #104cba;
+  color: #27ae60;
 }
 .bannar__form-title {
   text-align: center;
@@ -1551,7 +1551,7 @@ body {
   margin-bottom: 15px;
 }
 .bannar__input-btn {
-  background-color: #104cba;
+  background-color: #27ae60;
   width: 100%;
   border: 0;
   padding: 10px;
@@ -1583,7 +1583,7 @@ body {
   text-transform: capitalize;
 }
 .about__subtitle {
-  color: #104cba;
+  color: #27ae60;
 }
 .about__desc {
   margin: 20px 0;
@@ -1593,7 +1593,7 @@ body {
   margin-bottom: 10px;
 }
 .about__item i {
-  color: #104cba;
+  color: #27ae60;
 }
 .about__btn {
   margin-top: 15px;
@@ -1618,7 +1618,7 @@ body {
 
 .about__text {
   position: absolute;
-  background-color: #104cba;
+  background-color: #27ae60;
   width: 250px;
   color: #fff;
   height: 250px;
@@ -1652,7 +1652,7 @@ body {
   content: "";
   width: 60px;
   height: 2px;
-  background-color: #104cba;
+  background-color: #27ae60;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -1663,8 +1663,10 @@ body {
   font-weight: 700;
   height: 60px;
 }
-.section-title span {
-  display: none;
+
+.typed-cursor {
+  font-size: 35px;
+  margin-left: 5px;
 }
 
 .breadcumb {
@@ -1692,7 +1694,7 @@ body {
   position: absolute;
   width: 5px;
   height: 5px;
-  background-color: #104cba;
+  background-color: #27ae60;
   border-radius: 50%;
   right: -13px;
   top: 9px;
@@ -1702,7 +1704,7 @@ body {
   padding: 80px 0;
   background-size: cover;
   background-position: center;
-  border-top: 3px solid #104cba;
+  border-top: 3px solid #27ae60;
 }
 .services__single {
   box-shadow: 0px 0px 50px 11px rgba(95, 138, 236, 0.05);
@@ -1713,7 +1715,7 @@ body {
   background-color: #ffffff;
 }
 .services__single:hover {
-  border-color: #104cba;
+  border-color: #27ae60;
 }
 .services__number {
   position: absolute;
@@ -1726,7 +1728,7 @@ body {
 }
 .services__icon {
   font-size: 25px;
-  color: #104cba;
+  color: #27ae60;
   text-align: center;
   font-size: 35px;
   border-radius: 50%;
@@ -1748,7 +1750,7 @@ body {
   position: relative;
 }
 .services__btn:hover {
-  color: #104cba;
+  color: #27ae60;
 }
 .services__btn:hover:before {
   width: 100%;
@@ -1758,7 +1760,7 @@ body {
   content: "";
   width: 0;
   height: 2px;
-  background-color: #104cba;
+  background-color: #27ae60;
   bottom: -5px;
   transition: 0.3s;
 }
@@ -1790,7 +1792,7 @@ body {
   padding: 120px 0;
 }
 .team__single:hover .team__img {
-  border-color: #104cba;
+  border-color: #27ae60;
 }
 .team__img {
   width: 220px;
@@ -1845,11 +1847,11 @@ body {
   transition: 0.3s;
 }
 .team__link:hover {
-  color: #104cba;
+  color: #27ae60;
 }
 .team__link:hover:after {
   width: 100%;
-  background-color: #104cba;
+  background-color: #27ae60;
 }
 
 .testimonial {
@@ -1892,7 +1894,7 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #104cba;
+  background-color: #27ae60;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -1958,7 +1960,7 @@ body {
   position: absolute;
   left: 15px;
   top: 15px;
-  background-color: #104cba;
+  background-color: #27ae60;
   display: inline-block;
   color: #fff;
   padding: 5px 20px;
@@ -1981,7 +1983,7 @@ body {
   font-weight: 500;
 }
 .blog__meta a:hover {
-  color: #104cba;
+  color: #27ae60;
 }
 .blog__title {
   font-size: 20px;
@@ -1989,7 +1991,7 @@ body {
   font-weight: 600;
 }
 .blog__title-link:hover {
-  color: #104cba;
+  color: #27ae60;
 }
 .blog__desc {
   font-size: 15px;
@@ -2004,7 +2006,7 @@ body {
   padding: 60px 0;
 }
 .contact__info {
-  background-color: #104cba;
+  background-color: #27ae60;
   color: #fff;
   padding: 20px;
   border-radius: 7px;
@@ -2020,7 +2022,7 @@ body {
 }
 .contact__info-icon i {
   background-color: #fff;
-  color: #104cba;
+  color: #27ae60;
   width: 30px;
   height: 30px;
   text-align: center;
@@ -2063,7 +2065,7 @@ body {
   height: 110px;
 }
 .contact__form-submit {
-  background-color: #104cba;
+  background-color: #27ae60;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
@@ -2089,7 +2091,7 @@ body {
   content: "";
   width: 50%;
   height: 100%;
-  background-color: #292e47;
+  background-color: #2c3e50;
   left: 0;
   top: 0;
 }
@@ -2101,7 +2103,7 @@ body {
   height: 100%;
   right: 0;
   top: 0;
-  background-color: #24283F;
+  background-color: #34495e;
   z-index: -1;
 }
 
@@ -2127,7 +2129,7 @@ body {
   content: "";
   width: 50px;
   height: 2px;
-  background-color: #104cba;
+  background-color: #27ae60;
   bottom: 0;
 }
 .footer__desc {
@@ -2150,8 +2152,8 @@ body {
   margin-right: 10px;
 }
 .footer__social a:hover {
-  background-color: #104cba;
-  border-color: #104cba;
+  background-color: #27ae60;
+  border-color: #27ae60;
 }
 .footer__list {
   margin-bottom: 10px;
@@ -2180,7 +2182,7 @@ body {
   position: absolute;
 }
 .footer__list-link:hover {
-  color: #104cba;
+  color: #27ae60;
 }
 
 .footer-bottom {
@@ -2193,5 +2195,5 @@ body {
   margin-left: 10px;
 }
 .footer-bottom__link:hover {
-  color: #104cba;
+  color: #27ae60;
 }/*# sourceMappingURL=style.css.map */
