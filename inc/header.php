@@ -61,15 +61,15 @@
                     <li class="has-child">
                        <a href="projects.php">Projects</a>
                        <ul class="sub-menu">
-                          <li><a href="#">Point of Sale Software</a></li>
-                          <li><a href="#">School & College Software</a></li>
-                          <li><a href="#">Inventory Control Software</a></li>
-                          <li><a href="#">Hostel/Dormitory Software</a></li>
-                          <li><a href="#">Enterprise Software</a></li>
-                          <li><a href="#">Payroll Software</a></li>
-                          <li><a href="#">Hotel Software</a></li>
-                          <li><a href="#">Restaurant Software</a></li>
-                          <li><a href="#">E-commerce Websites</a></li>
+                          <li><a href="single-project.php">Point of Sale Software</a></li>
+                          <li><a href="single-project.php">School & College Software</a></li>
+                          <li><a href="single-project.php">Inventory Control Software</a></li>
+                          <li><a href="single-project.php">Hostel/Dormitory Software</a></li>
+                          <li><a href="single-project.php">Enterprise Software</a></li>
+                          <li><a href="single-project.php">Payroll Software</a></li>
+                          <li><a href="single-project.php">Hotel Software</a></li>
+                          <li><a href="single-project.php">Restaurant Software</a></li>
+                          <li><a href="single-project.php">E-commerce Websites</a></li>
                        </ul>                   
                     </li>
                     <li><a href="team.php">Teams</a></li>
@@ -78,7 +78,7 @@
             </div>
             <div class="col-md-2 col-bleed-y text-right">
                 <div class="header__right">
-                    <a href="" class="btn btn-primary">login</a>
+                    <a href="" class="btn btn-primary">states</a>
                     <div class="header__user">
                         <!-- <h4>hello, john doe <i class="fa-solid fa-angle-down"></i></h4> -->
                     </div>

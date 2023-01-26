@@ -20,31 +20,31 @@
         <div class="grid align-center">
             <div class="col-4 col-bleed-x">
                 <div class="contact__info bg" style="background-image: url('assets/img/home-two.jpg');">
-                    <h4 class="contact__info-heading">Speak With <br> Expert Engineers.</h4>
+                    <h4 class="contact__info-heading">Speak With <br> Expert Developers.</h4>
                     <ul class="contact__info-list">
                         <li class="contact__info-item">
                             <div class="contact__info-icon">
                                 <i class="fa fa-map-marker"></i>
                             </div>                            
-                            <h5 class="contact__info-title">Address: <span> 245 Street, NY, USA</span></h5>
+                            <h5 class="contact__info-title"><span> 245 Street, NY, USA</span></h5>
                         </li>
                         <li class="contact__info-item">
                             <div class="contact__info-icon">
                                 <i class="fa fa-envelope"></i>
                             </div>   
-                            <h5 class="contact__info-title">Email: <span> info@demo.com</span></h5>
+                            <h5 class="contact__info-title"><span> info@demo.com</span></h5>
                         </li>
                         <li class="contact__info-item">
                             <div class="contact__info-icon">
                                 <i class="fa fa-mobile "></i>
                             </div>   
-                            <h5 class="contact__info-title">Phone: <span> (123) 222-8888 </span></h5>
+                            <h5 class="contact__info-title"><span> (123) 222-8888 </span></h5>
                         </li>
                         <li class="contact__info-item">
                             <div class="contact__info-icon">
                                 <i class="fa fa-phone"></i>
                             </div>   
-                            <h5 class="contact__info-title">Mobile: <span> (123) 222-8888 </span></h5>
+                            <h5 class="contact__info-title"><span> (123) 222-8888 </span></h5>
                         </li>
                     </ul>
                 </div>

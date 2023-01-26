@@ -45,14 +45,6 @@
     <div class="container">
         <div class="grid">
             <div class="col-12">
-                <div class="section-title">
-                    <div class="section-title__subtitle">explore your knowledge</div>
-                    <h4 class="section-title__title testimonial-title"></h4>
-                </div>
-            </div>
-        </div>
-        <div class="grid">
-            <div class="col-12">
                 <div class="testimonial__items">
                     <div class="testimonial__single">
                         <img class="testimonial__single-img" src="assets/img/testi1.png" alt="">

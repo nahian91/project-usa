@@ -1,0 +1,36 @@
+
+.order span {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .order input, .order select {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 7px;
+    background-color: transparent;
+  }
+  
+.order {
+    padding: 80px 0;
+  }
+  .Yorder {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  .Yorder {
+    text-align: left;
+  }
+  
+.Yorder input {
+    width: auto;
+    margin-bottom: 15px;
+  }
+  .Yorder p {
+    margin-bottom: 15px;
+  }
+  button.btn.btn-primary {
+	border: 0;
+	margin-top: 30px;
+}
