@@ -96,6 +96,7 @@
   font-weight: 600;
   margin-bottom: 12px;
   border-bottom: 1px solid #ddd;
+  margin-top: 30px;
 }
 .single-service__desc {
   margin-bottom: 15px;
@@ -117,4 +118,36 @@
   border-bottom: 0;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+.single-service__promo {
+  padding: 60px 30px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  background-size: cover;
+  background-position: center;
+  margin-top: 60px;
+}
+.single-service__promoo-sub {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.single-service__promoo-title {
+  text-transform: uppercase;
+  font-size: 50px;
+  margin: 20px 0px;
+  line-height: 60px;
+}
+.single-service__promo:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  left: 0;
+  top: 0;
+  opacity: .9;
+  z-index: -1;
 }
