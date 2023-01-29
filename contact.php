@@ -54,19 +54,19 @@
                     <h4 class="contact__form-title">Fill The Form Below</h4>
                     <div class="grid">
                         <div class="col-6">
-                            <input type="text" class="contact__form-input" placeholder="Your Name">
+                            <input type="text" class="contact__form-input" placeholder="Name">
                         </div>
                         <div class="col-6">
-                            <input type="email" class="contact__form-input" placeholder="Your Email">
+                            <input type="email" class="contact__form-input" placeholder="Email">
                         </div>
                         <div class="col-6">
-                            <input type="text" class="contact__form-input" placeholder="Your Subject">
+                            <input type="text" class="contact__form-input" placeholder="Subject">
                         </div>
                         <div class="col-6">
-                            <input type="phone" class="contact__form-input" placeholder="Your Phone">
+                            <input type="phone" class="contact__form-input" placeholder="Phone">
                         </div>
                         <div class="col-12">
-                            <textarea class="contact__form-msg" placeholder="Your Message"></textarea>
+                            <textarea class="contact__form-msg" placeholder="Message"></textarea>
                         </div>
                         <div class="col-12">
                             <input class="contact__form-submit" type="submit" value="Send Message">
