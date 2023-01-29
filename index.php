@@ -188,7 +188,7 @@
                     <div class="team__img" style="background-image: url('assets/img/1.jpg');"></div>
                     <div class="team__content">
                         <h4 class="team__title">David Ospina <span class="team__desg">web developer</span></h4>
-                        <a href="" class="team__link">view profile</a>
+                        <a href="team-profile.php" class="team__link">view profile</a>
                     </div>
                 </div>
             </div>
@@ -197,7 +197,7 @@
                     <div class="team__img" style="background-image: url('assets/img/2.jpg');"></div>
                     <div class="team__content">
                         <h4 class="team__title">Selena Marianova <span class="team__desg">web developer</span></h4>
-                        <a href="" class="team__link">view profile</a>
+                        <a href="team-profile.php" class="team__link">view profile</a>
                     </div>
                 </div>
             </div>
@@ -206,7 +206,7 @@
                     <div class="team__img" style="background-image: url('assets/img/3.jpg');"></div>
                     <div class="team__content">
                         <h4 class="team__title">Nihad Abdullayev <span class="team__desg">web developer</span></h4>
-                        <a href="" class="team__link">view profile</a>
+                        <a href="team-profile.php" class="team__link">view profile</a>
                     </div>
                 </div>
             </div>
@@ -215,7 +215,7 @@
                     <div class="team__img" style="background-image: url('assets/img/4.jpg');"></div>
                     <div class="team__content">
                         <h4 class="team__title">Lena Angelova <span class="team__desg">web developer</span></h4>
-                        <a href="" class="team__link">view profile</a>
+                        <a href="team-profile.php" class="team__link">view profile</a>
                     </div>
                 </div>
             </div>
@@ -224,7 +224,7 @@
                     <div class="team__img" style="background-image: url('assets/img/5.jpg');"></div>
                     <div class="team__content">
                         <h4 class="team__title">Eljif Elmas <span class="team__desg">web developer</span></h4>
-                        <a href="" class="team__link">view profile</a>
+                        <a href="team-profile.php" class="team__link">view profile</a>
                     </div>
                 </div>
             </div>
@@ -233,7 +233,7 @@
                     <div class="team__img" style="background-image: url('assets/img/6.jpg');"></div>
                     <div class="team__content">
                         <h4 class="team__title">Sercan Ipekcioglu <span class="team__desg">web developer</span></h4>
-                        <a href="" class="team__link">view profile</a>
+                        <a href="team-profile.php" class="team__link">view profile</a>
                     </div>
                 </div>
             </div>
@@ -242,7 +242,7 @@
                     <div class="team__img" style="background-image: url('assets/img/7.jpg');"></div>
                     <div class="team__content">
                         <h4 class="team__title">Jahangir Seven <span class="team__desg">web developer</span></h4>
-                        <a href="" class="team__link">view profile</a>
+                        <a href="team-profile.php" class="team__link">view profile</a>
                     </div>
                 </div>
             </div>
@@ -251,7 +251,7 @@
                     <div class="team__img" style="background-image: url('assets/img/8.jpg');"></div>
                     <div class="team__content">
                         <h4 class="team__title">Alina Regaslova <span class="team__desg">web developer</span></h4>
-                        <a href="" class="team__link">view profile</a>
+                        <a href="team-profile.php" class="team__link">view profile</a>
                     </div>
                 </div>
             </div>

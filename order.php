@@ -372,7 +372,7 @@
                <div>
                   <input type="radio" name="dbt" value="cd"> Paypal
                </div>
-               <button type="button" class="btn btn-primary">Place Order</button>
+               <a href="dashboard.php" class="btn btn-primary">Place Order</a>
             </div>
             <!-- Yorder -->
          </div>

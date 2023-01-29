@@ -15,6 +15,22 @@
     </div>
 </section>
 
+<!-- Login -->
+<section class="login">
+    <div class="container">
+        <div class="grid justify-center">
+            <div class="col-7">
+                <h4>Login</h4>
+                <form action="">
+                    <input type="email" placeholder="Your Email">
+                    <input type="password" placeholder="Your Password">
+                    <input type="submit" class="btn btn-primary" value="Login">
+                </form>
+            </div>
+        </div>
+    </div>
+</section> 
+
 
     
 <?php include 'inc/footer.php'; ?>

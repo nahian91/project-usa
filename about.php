@@ -39,42 +39,5 @@
         </div>
     </div>
 </section>
-
-<!-- Testimonials --> 
-<section class="testimonial bg" style="background-image:url('assets/img/testimonials.jpg')">
-    <div class="container">
-        <div class="grid">
-            <div class="col-12">
-                <div class="testimonial__items">
-                    <div class="testimonial__single">
-                        <img class="testimonial__single-img" src="assets/img/testi1.png" alt="">
-                        <h4 class="testimonial__single-name">Donald B. Mitchell <span class="testimonial__single-desg">web developer</span></h4>
-                        <p>Nullam tincidunt augue eget dui volu tpat, vitae ultri ces lectus posuere. Duis urna lacus, efficitur non.</p>
-                    </div>
-                    <div class="testimonial__single">
-                        <img class="testimonial__single-img" src="assets/img/testi2.png" alt="">
-                        <h4 class="testimonial__single-name">Bennie N. Bannister <span class="testimonial__single-desg">web developer</span></h4>
-                        <p>Nullam tincidunt augue eget dui volu tpat, vitae ultri ces lectus posuere. Duis urna lacus, efficitur non.</p>
-                    </div>
-                    <div class="testimonial__single">
-                        <img class="testimonial__single-img" src="assets/img/testi3.png" alt="">
-                        <h4 class="testimonial__single-name">Federico M. Upton <span class="testimonial__single-desg">web developer</span></h4>
-                        <p>Nullam tincidunt augue eget dui volu tpat, vitae ultri ces lectus posuere. Duis urna lacus, efficitur non.</p>
-                    </div>
-                    <div class="testimonial__single">
-                        <img class="testimonial__single-img" src="assets/img/testi1.png" alt="">
-                        <h4 class="testimonial__single-name">Julio M. McDowell <span class="testimonial__single-desg">web developer</span></h4>
-                        <p>Nullam tincidunt augue eget dui volu tpat, vitae ultri ces lectus posuere. Duis urna lacus, efficitur non.</p>
-                    </div>
-                    <div class="testimonial__single">
-                        <img class="testimonial__single-img" src="assets/img/testi2.png" alt="">
-                        <h4 class="testimonial__single-name">Michael S. Pearson <span class="testimonial__single-desg">web developer</span></h4>
-                        <p>Nullam tincidunt augue eget dui volu tpat, vitae ultri ces lectus posuere. Duis urna lacus, efficitur non.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> 
     
 <?php include 'inc/footer.php'; ?>

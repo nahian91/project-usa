@@ -17,12 +17,11 @@
     }
     &__info-icon {
         i{
-            background-color: #fff;
-            color: $primary_color;
-            width: 30px;
-            height: 30px;
+            background-color: $primary_color;
+            width: 40px;
+            height: 40px;
             text-align: center;
-            line-height: 30px;
+            line-height: 40px;
             border-radius: 50%;
         }
     }
@@ -70,6 +69,7 @@
         border: 0;
         padding: 15px 40px;
         transition: .3s;
+        font-family: 'Poppins';
     }
     &__maps {
         width: 100%;

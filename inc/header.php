@@ -50,26 +50,26 @@
                     <li><a href="about.php">About Us</a></li>
                     <li class="has-child"><a href="services.php">Services</a>
                         <ul class="sub-menu">
-                            <li><a href="">Software Development</a></li>
-                            <li><a href="">Web Development</a></li>
-                            <li><a href="">Mobile Development</a></li>
-                            <li><a href="">App Development</a></li>
-                            <li><a href="">QA Testing</a></li>
-                            <li><a href="">Product Design</a></li>
+                            <li><a href="service-single.php">Software Development</a></li>
+                            <li><a href="service-single.php">Web Development</a></li>
+                            <li><a href="service-single.php">Mobile Development</a></li>
+                            <li><a href="service-single.php">App Development</a></li>
+                            <li><a href="service-single.php">QA Testing</a></li>
+                            <li><a href="service-single.php">Product Design</a></li>
                         </ul>
                     </li>
                     <li class="has-child">
                        <a href="projects.php">Projects</a>
                        <ul class="sub-menu">
-                          <li><a href="single-project.php">Point of Sale Software</a></li>
-                          <li><a href="single-project.php">School & College Software</a></li>
-                          <li><a href="single-project.php">Inventory Control Software</a></li>
-                          <li><a href="single-project.php">Hostel/Dormitory Software</a></li>
-                          <li><a href="single-project.php">Enterprise Software</a></li>
-                          <li><a href="single-project.php">Payroll Software</a></li>
-                          <li><a href="single-project.php">Hotel Software</a></li>
-                          <li><a href="single-project.php">Restaurant Software</a></li>
-                          <li><a href="single-project.php">E-commerce Websites</a></li>
+                          <li><a href="project-single.php">Point of Sale Software</a></li>
+                          <li><a href="project-single.php">School & College Software</a></li>
+                          <li><a href="project-single.php">Inventory Control Software</a></li>
+                          <li><a href="project-single.php">Hostel/Dormitory Software</a></li>
+                          <li><a href="project-single.php">Enterprise Software</a></li>
+                          <li><a href="project-single.php">Payroll Software</a></li>
+                          <li><a href="project-single.php">Hotel Software</a></li>
+                          <li><a href="project-single.php">Restaurant Software</a></li>
+                          <li><a href="project-single.php">E-commerce Websites</a></li>
                        </ul>                   
                     </li>
                     <li><a href="team.php">Teams</a></li>

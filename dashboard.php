@@ -20,8 +20,8 @@
         <div class="grid">
             <div class="col-4">
                 <ul class="dashboard__list">
-                    <li class="dashboard__item"><a href="" class="dashboard__link">Dashboard</a></li>
-                    <li class="dashboard__item"><a href="" class="dashboard__link">Profile</a></li>
+                    <li class="dashboard__item"><a href="dashboard.php" class="dashboard__link">Dashboard</a></li>
+                    <li class="dashboard__item"><a href="user-profile.php" class="dashboard__link">Profile</a></li>
                     <li class="dashboard__item"><a href="" class="dashboard__link">Logout</a></li>
                 </ul>
             </div>
