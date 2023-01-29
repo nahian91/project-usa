@@ -17,12 +17,16 @@
                 <form class="bannar__form">
                     <h4 class="bannar__form-title">appoinment</h4>
                     <div class="bannar__input">
-                        <input type="text" placeholder="Your Name">
+                        <input type="text" placeholder="Name">
                         <i class="fa-regular fa-user"></i>
                     </div>
                     <div class="bannar__input">
-                        <input type="email" placeholder="Your Email">
+                        <input type="email" placeholder="Email">
                         <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="bannar__input">
+                        <input type="text" placeholder="Phone">
+                        <i class="fa-solid fa-phone"></i>
                     </div>
                     <div class="bannar__input">
                         <select>
@@ -35,7 +39,7 @@
                         <i class="fa-solid fa-chevron-down"></i>
                     </div>
                     <div class="bannar__input">
-                        <textarea placeholder="Your Message"></textarea>
+                        <textarea placeholder="Message"></textarea>
                     </div>
                     <input class="bannar__input-btn" type="submit" value="make an appoinment">
                 </form>
