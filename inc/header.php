@@ -42,7 +42,7 @@
     <div class="container">
         <div class="grid align-center">
             <div class="col-md-2 col-bleed-y">
-                <a href="" class="header__logo">logo</a>
+                <a href="index.php" class="header__logo">logo</a>
             </div>
             <div class="col-md-8 col-bleed-y">
                 <ul class="header__nav">
@@ -77,11 +77,9 @@
                  </ul>
             </div>
             <div class="col-md-2 col-bleed-y text-right">
-                <div class="header__right">
+                <div class="header__right d-flex">
                     <a href="" class="btn btn-primary">states</a>
-                    <div class="header__user">
-                        <!-- <h4>hello, john doe <i class="fa-solid fa-angle-down"></i></h4> -->
-                    </div>
+                    <a href="login.php" class="btn btn-primary">Login</a>
                 </div>
             </div>
         </div>

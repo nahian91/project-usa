@@ -54,7 +54,7 @@ img {
 .btn {
   display: inline-block;
   text-transform: capitalize;
-  font-size: 18px;
+  font-size: 17px;
   border-radius: 3px;
   color: #fff;
   position: relative;
@@ -77,11 +77,11 @@ img {
 }
 .btn.btn-primary {
   background-color: #27ae60;
-  padding: 10px 40px;
+  padding: 8px 30px;
 }
 .btn.btn-secondary {
   border: 2px solid #27ae60;
-  padding: 8px 40px;
+  padding: 8px 30px;
 }
 
 :root {
@@ -1464,6 +1464,9 @@ body {
   right: 0;
   top: 35px;
   font-size: 12px;
+}
+.header__right a {
+  padding: 10px 15px !important;
 }
 
 .bannar {

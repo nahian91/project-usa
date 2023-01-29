@@ -48,7 +48,7 @@ img{
 .btn{
     display: inline-block;
     text-transform: capitalize;
-    font-size: 18px;
+    font-size: 17px;
     border-radius: 3px;
     color: #fff;
     position: relative;
@@ -72,10 +72,10 @@ img{
     }
     &.btn-primary{
         background-color: $primary_color;
-        padding: 10px 40px;
+        padding: 8px 30px;
     }
     &.btn-secondary{
         border: 2px solid $primary_color;
-        padding: 8px 40px;
+        padding: 8px 30px;
     }
 }
