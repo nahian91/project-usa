@@ -20,12 +20,12 @@
         <div class="grid">
             <div class="col-4">
                 <ul class="single-service__list">
-                    <li class="single-service__item"><a href="service-single.php">Software Development</a></li>
                     <li class="single-service__item"><a href="service-single.php">Web Development</a></li>
-                    <li class="single-service__item"><a href="service-single.php">Mobile Development</a></li>
-                    <li class="single-service__item"><a href="service-single.php">App Development</a></li>
-                    <li class="single-service__item"><a href="service-single.php">QA Testing</a></li>
-                    <li class="single-service__item"><a href="service-single.php">Product Design</a></li>
+                    <li class="single-service__item"><a href="service-single.php">Software Development</a></li>
+                    <li class="single-service__item"><a href="service-single.php">APP Development</a></li>
+                    <li class="single-service__item"><a href="service-single.php">Graphics Design</a></li>
+                    <li class="single-service__item"><a href="service-single.php">Logo Design</a></li>
+                    <li class="single-service__item"><a href="service-single.php">Social Media Marketing</a></li>
                 </ul>
                 <div class="single-service__promo" style="background-image: url('assets/img/cherrydeck-rMILC1PIwM0-unsplash.jpg');">
                     <span class="single-service__promoo-sub">contact us now</span>

@@ -23,7 +23,7 @@
                 <div class="services__single">
                     <span class="services__number">01</span>
                     <i class="fa-solid fa-laptop services__icon"></i>
-                    <h4 class="services__title">Web Design</h4>
+                    <h4 class="services__title">Web Development</h4>
                     <p class="services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                     <a class="services__btn" href="">read more</a>
                 </div>
@@ -32,7 +32,7 @@
                 <div class="services__single">
                     <span class="services__number">02</span>
                     <i class="fa-solid fa-code services__icon"></i>
-                    <h4 class="services__title">Web Development</h4>
+                    <h4 class="services__title">Software Development</h4>
                     <p class="services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                     <a class="services__btn" href="">read more</a>
                 </div>
@@ -41,7 +41,7 @@
                 <div class="services__single">
                     <span class="services__number">03</span>
                     <i class="fa-solid fa-mobile services__icon"></i>
-                    <h4 class="services__title">Responsive Design</h4>
+                    <h4 class="services__title">APP Development</h4>
                     <p class="services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                     <a class="services__btn" href="">read more</a>
                 </div>
@@ -59,7 +59,7 @@
                 <div class="services__single">
                     <span class="services__number">05</span>
                     <i class="fa-solid fa-wand-magic services__icon"></i>
-                    <h4 class="services__title">Digital Marketing</h4>
+                    <h4 class="services__title">Logo Design</h4>
                     <p class="services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                     <a class="services__btn" href="">read more</a>
                 </div>
@@ -68,7 +68,7 @@
                 <div class="services__single">
                     <span class="services__number">06</span>
                     <i class="fa-solid fa-clock services__icon"></i>
-                    <h4 class="services__title">Support</h4>
+                    <h4 class="services__title">Social Media Marketing</h4>
                     <p class="services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                     <a class="services__btn" href="">read more</a>
                 </div>

@@ -19,11 +19,12 @@
                     <div class="footer__single">
                         <h4 class="footer__title">quick links</h4>
                         <ul>
-                            <li class="footer__list"><a href="" class="footer__list-link">About Us</a></li>
-                            <li class="footer__list"><a href="" class="footer__list-link">Meet Our Team</a></li>
-                            <li class="footer__list"><a href="" class="footer__list-link">Our Projects</a></li>
-                            <li class="footer__list"><a href="" class="footer__list-link">Help & FAQs</a></li>
-                            <li class="footer__list"><a href="" class="footer__list-link">Contact Us</a></li>
+                            <li class="footer__list"><a href="service-single.php"  class="footer__list-link">Home</a></li>
+                            <li class="footer__list"><a href="service-single.php" class="footer__list-link">About</a></li>
+                            <li class="footer__list"><a href="service-single.php" class="footer__list-link">Services</a></li>
+                            <li class="footer__list"><a href="service-single.php" class="footer__list-link">Projects</a></li>
+                            <li class="footer__list"><a href="service-single.php" class="footer__list-link">Teams</a></li>
+                            <li class="footer__list"><a href="service-single.php" class="footer__list-link">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -31,11 +32,12 @@
                     <div class="footer__single">
                         <h4 class="footer__title">our services</h4>
                         <ul>
-                            <li class="footer__list"><a href="" class="footer__list-link">Web Development</a></li>
-                            <li class="footer__list"><a href="" class="footer__list-link">Business Development</a></li>
-                            <li class="footer__list"><a href="" class="footer__list-link">Product Management</a></li>
-                            <li class="footer__list"><a href="" class="footer__list-link">UI/UX Design</a></li>
-                            <li class="footer__list"><a href="" class="footer__list-link">Cloud services</a></li>
+                            <li class="footer__list"><a href="service-single.php"  class="footer__list-link">Web Development</a></li>
+                            <li class="footer__list"><a href="service-single.php" class="footer__list-link">Software Development</a></li>
+                            <li class="footer__list"><a href="service-single.php" class="footer__list-link">APP Development</a></li>
+                            <li class="footer__list"><a href="service-single.php" class="footer__list-link">Graphics Design</a></li>
+                            <li class="footer__list"><a href="service-single.php" class="footer__list-link">Logo Design</a></li>
+                            <li class="footer__list"><a href="service-single.php" class="footer__list-link">Social Media Marketing</a></li>
                         </ul>   
                     </div>
                 </div>

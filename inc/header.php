@@ -50,12 +50,12 @@
                     <li><a href="about.php">About Us</a></li>
                     <li class="has-child"><a href="services.php">Services</a>
                         <ul class="sub-menu">
-                            <li><a href="service-single.php">Software Development</a></li>
                             <li><a href="service-single.php">Web Development</a></li>
-                            <li><a href="service-single.php">Mobile Development</a></li>
-                            <li><a href="service-single.php">App Development</a></li>
-                            <li><a href="service-single.php">QA Testing</a></li>
-                            <li><a href="service-single.php">Product Design</a></li>
+                            <li><a href="service-single.php">Software Development</a></li>
+                            <li><a href="service-single.php">APP Development</a></li>
+                            <li><a href="service-single.php">Graphics Design</a></li>
+                            <li><a href="service-single.php">Logo Design</a></li>
+                            <li><a href="service-single.php">Social Media Marketing</a></li>
                         </ul>
                     </li>
                     <li class="has-child">
@@ -77,8 +77,7 @@
                  </ul>
             </div>
             <div class="col-md-2 col-bleed-y text-right">
-                <div class="header__right d-flex">
-                    <a href="" class="btn btn-primary">states</a>
+                <div class="header__right">
                     <a href="login.php" class="btn btn-primary">Login</a>
                 </div>
             </div>

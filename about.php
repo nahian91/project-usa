@@ -39,5 +39,85 @@
         </div>
     </div>
 </section>
+
+<!-- About Destails -->
+<section class="about-bottom">
+    <div class="container">
+        <div class="grid">
+            <div class="col-4">
+                <div class="about-bottom__single">
+                    <i class="fa-solid fa-wand-magic"></i>
+                    <h4 class="about-bottom__title">our mission</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, esse repudiandae tempora quo possimus labore quas nisi. Velit, laudantium.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="about-bottom__single">
+                    <i class="fa-solid fa-wand-magic"></i>
+                    <h4 class="about-bottom__title">our vission</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, esse repudiandae tempora quo possimus labore quas nisi. Velit, laudantium.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="about-bottom__single">
+                    <i class="fa-solid fa-wand-magic"></i>
+                    <h4 class="about-bottom__title">our strength</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, esse repudiandae tempora quo possimus labore quas nisi. Velit, laudantium.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+
+<section class="why-choose" style="background-image: url('assets/img/about-bg.jpg');">
+    <div class="container">
+        <div class="grid">
+            <div class="col-12">
+                <div class="section-title">
+                    <div class="section-title__subtitle">explore your knowledge</div>
+                    <span class="section-title__title why-title">See Our Skilled Exper</span><span class="typed-cursor" aria-hidden="true">|</span>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="col-4">
+                <div class="why-choose__single">
+                    <i class="fa-solid fa-laptop why-choose__icon"></i>
+                    <h4 class="why-choose__title">Experience</h4>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="why-choose__single">
+                    <i class="fa-solid fa-laptop why-choose__icon"></i>
+                    <h4 class="why-choose__title">Dedication</h4>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="why-choose__single">
+                    <i class="fa-solid fa-laptop why-choose__icon"></i>
+                    <h4 class="why-choose__title">Safe & Secure</h4>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="why-choose__single">
+                    <i class="fa-solid fa-laptop why-choose__icon"></i>
+                    <h4 class="why-choose__title">Fast Delivery</h4>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="why-choose__single">
+                    <i class="fa-solid fa-laptop why-choose__icon"></i>
+                    <h4 class="why-choose__title">Creative Idea</h4>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="why-choose__single">
+                    <i class="fa-solid fa-laptop why-choose__icon"></i>
+                    <h4 class="why-choose__title">24/7 Support</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     
 <?php include 'inc/footer.php'; ?>

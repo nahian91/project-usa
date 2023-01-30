@@ -1,62 +1,50 @@
-
-.team-profile__skill-single p {
-    height: 15px;
-    background-color: #ddd;
+.team-profile{
+  padding: 60px 0;
+  &__skill-single {
+    p {
+      height: 15px;
+      background-color: #ddd;
+    }
   }
-  .team-profile__skill-single p span {
-    background-color: $primary_color;
-    height: 15px;
-    display: block;
+  &__skill-single {
+    p {
+      span {
+        background-color: $primary_color;
+        height: 15px;
+        display: block;
+      }
+    }
   }
-  
-.team-profile__info {
-    text-align: center;
-  }
-  .team-profile__info img {
-    width: 100%;
-    border-radius: 10px;
-    border: 1px solid #ddd;
-    padding: 3px;
-  }
-  .team-profile__info h4 {
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 600;
-    margin-top: 10px;
-  }
-  .team-profile__info h4 span {
-    display: block;
-    font-size: 18px;
-    font-weight: 500;
-    font-style: italic;
-  }
-  .team-profile {
-    padding: 60px 0;
-  }
-  .team-profile__skills{
+  &__skills{
     margin-bottom: 30px;
+    > h4 {
+      font-size: 26px;
+      font-weight: 600;
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 10px;
+    }
   }
-  .team-profile__skills > h4 {
-    font-size: 26px;
-    font-weight: 600;
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 10px;
+  &__info {
+    text-align: center;
+    img {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      padding: 3px;
+    }
+    h4 {
+      text-transform: capitalize;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 600;
+      margin-top: 10px;
+      span {
+        display: block;
+        font-size: 18px;
+        font-weight: 500;
+        font-style: italic;
+      }
+    }
   }
-
-  
-.dashboard__single label {
-    display: block;
-    font-size: 20px;
-  }
-  .dashboard__single input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    margin-top: 5px;
-  }
-  .dashboard__single input[type="submit"] {
-    width: auto;
-    border: 0;
-    cursor: pointer;
-  }
+}
+ 
