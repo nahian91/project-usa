@@ -2193,6 +2193,11 @@ body {
   padding: 15px 40px;
   transition: 0.3s;
   font-family: "Poppins";
+  font-size: 16px;
+  transition: 0.3s;
+}
+.contact__form-submit:hover {
+  background-color: #333;
 }
 .contact__maps {
   width: 100%;
@@ -2274,6 +2279,9 @@ body {
 .single-project__list li {
   margin-bottom: 5px;
   font-weight: 500;
+}
+.single-project a {
+  margin-top: 25px;
 }
 
 .dashboard {
@@ -2362,45 +2370,62 @@ body {
   font-weight: 500;
 }
 
-.order span {
+.order {
+  padding: 80px 0;
+}
+.order__label {
   display: block;
   font-size: 20px;
   font-weight: 500;
 }
-
-.order input, .order select {
+.order__input {
   width: 100%;
   border: 1px solid #ddd;
   padding: 7px;
   background-color: transparent;
 }
 
-.order {
-  padding: 80px 0;
-}
-
-.Yorder {
+.order__summary {
   background-color: #f4f4f4;
-  padding: 20px;
   border: 1px solid #ddd;
+  padding: 15px;
 }
 
-.Yorder {
-  text-align: left;
-}
-
-.Yorder input {
-  width: auto;
+.order__summary-title {
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 1px solid #ddd;
   margin-bottom: 15px;
+  padding-bottom: 10px;
 }
 
-.Yorder p {
-  margin-bottom: 15px;
+.order__summary ul li {
+  display: flex;
+  justify-content: space-between;
 }
 
-button.btn.btn-primary {
-  border: 0;
-  margin-top: 30px;
+.order__summary ul {
+  margin-bottom: 35px;
+}
+
+.order__summary-border {
+  border-top: 1px solid #aaa;
+  margin-top: 10px;
+  padding-top: 5px;
+  font-weight: 600;
+}
+
+.order__summary ul li {
+  padding-bottom: 5px;
+}
+
+.order__payment-single {
+  margin: 15px 0;
+}
+
+.order__payment {
+  margin-bottom: 30px;
+  display: block;
 }
 
 .team-profile {
@@ -2582,7 +2607,7 @@ button.btn.btn-primary {
 }
 .footer-bottom__link {
   color: #fff;
-  margin-left: 10px;
+  margin-left: 20px;
   position: relative;
 }
 .footer-bottom__link:hover {
