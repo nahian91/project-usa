@@ -1,16 +1,23 @@
 .about {
     background-position: center;
     background-size: cover;
-    padding: 100px 0;
+    padding: 25px 0;
+    @include min-small{
+        padding: 100px 0;
+    }
     &__subtitle {
         font-size: 20px;
         text-transform: capitalize;
         font-weight: 500;
     }
     &__title {
-        font-size: 55px;
-        line-height: 65px;
+        font-size: 35px;
+        line-height: 45px;
         text-transform: capitalize;
+        @include min-small{
+            font-size: 55px;
+            line-height: 65px;
+        }
     }
     &__subtitle {
         color: $primary_color;
@@ -32,34 +39,47 @@
         position: relative;
         z-index: 2;
         &:after {
-            position: absolute;
-            content: "";
-            background-image: url('../../assets/img/aaa.png');
-            width: 100%;
-            height: 100%;
-            top: -50px;
-            right: -150px;
-            background-size: cover;
-            transform: rotate(185deg);
-            z-index: -1;
+            display: none;
+            @include min-small{
+                display: block;
+                position: absolute;
+                content: "";
+                background-image: url('../../assets/img/aaa.png');
+                width: 100%;
+                height: 100%;
+                top: -50px;
+                right: -150px;
+                background-size: cover;
+                transform: rotate(185deg);
+                z-index: -1;
+            }
         }
     }
     &__text {
         position: absolute;
-        background-color: $primary_color;
-        width: 250px;
-        color: #fff;
-        height: 250px;
+        background-color: $primary_color;        
+        color: #fff;        
         border-radius: 50%;
-        line-height: 60px;
+        line-height: 40px;
         text-align: center;
-        font-size: 60px;
+        font-size: 40px;
         text-transform: uppercase;
         font-weight: 700;
-        left: -50px;
-        bottom: -100px;
-        padding-top: 65px;
+        padding-top: 50px;
         border: 5px solid $white;
+        width: 200px;
+        height: 200px;
+        left: -10px;
+        bottom: -25px;
+        @include min-small{
+            width: 250px;
+            height: 250px;
+            left: -50px;
+            bottom: -100px;
+            font-size: 60px;
+            line-height: 60px;
+            padding-top: 65px;
+        }
     }
 }
 

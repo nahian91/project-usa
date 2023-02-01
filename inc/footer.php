@@ -2,7 +2,7 @@
 <footer class="footer bg" style="background-image: url('assets/img/footer.jpg');">
         <div class="container">
             <div class="grid">
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="footer__single">
                         <h4 class="footer__title">about company</h4>
                         <p class="footer__desc">Sed perspiciatis unde omnste natus error voluptatem accusanti doloreue audantium totamrem aeriam.</p>
@@ -15,7 +15,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="footer__single">
                         <h4 class="footer__title">quick links</h4>
                         <ul>
@@ -28,7 +28,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="footer__single">
                         <h4 class="footer__title">our services</h4>
                         <ul>
@@ -41,7 +41,7 @@
                         </ul>   
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="footer__single">
                         <h4 class="footer__title">contact us</h4>
                         <ul>
@@ -59,12 +59,12 @@
     <section class="footer-bottom">
         <div class="container">
             <div class="grid align-center">
-                <div class="col-auto">
+                <div class="col-sm-4">
                     <div class="footer-bottom_copy">
                         <p>&copy; 2023. All Rights Reserved.</p>
                     </div>
                 </div>
-                <div class="col-auto text-right">
+                <div class="col-sm-8 text-right">
                     <a href="" class="footer-bottom__link">Terms & Condition</a>
                     <a href="" class="footer-bottom__link">Disclaimer</a>
                     <a href="" class="footer-bottom__link">Privacy Policy</a>
@@ -83,6 +83,8 @@
     <script src="assets/js/typed.js"></script>
     <!-- Counter JS -->
     <script src="assets/js/counterup.min.js"></script>
+    <!-- Slick Nav JS -->
+    <script src="assets/js/slick-nav.min.js"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
 </body>

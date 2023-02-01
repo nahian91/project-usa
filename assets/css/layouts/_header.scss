@@ -33,90 +33,107 @@
         box-shadow: 0 1px 0 rgba(0,0,0,.2);
     }
     &:before {
-        position: absolute;
-        content: "";
-        width: 450px;
-        height: 100%;
-        background-color: $primary_color;
-        z-index: -1;
-        transform: skew(15deg);
-        left: -60px;
+        display: none;
+        @include min-medium{
+            display: block;
+            width: 260px;
+            position: absolute;
+            content: "";
+            width: 450px;
+            height: 100%;
+            background-color: $primary_color;
+            z-index: -1;
+            transform: skew(15deg);
+            left: -60px;
+        }
+        @include min-large{
+            width: 320px;
+        }
+        @include min-x-large{
+            width: 450px;
+        }
     }
     &__logo {
         text-transform: uppercase;
         font-size: 30px;
         font-weight: 700;
-        color: #fff;
+        color: #333;
+        @include min-small{
+            color: #fff;
+        }
     }
     &__nav {
-        display: flex;
-        justify-content: center;
-        li {
-            position: relative;
-            > a {
-                display: block;
-                padding: 30px 15px;
-                text-transform: uppercase;
-                font-weight: 500;
-                font-size: 15px;
+        display: none;
+        @include min-small{
+            display: flex;
+            justify-content: center;
+            li {
                 position: relative;
-                &:before {
-                    position: absolute;
-                    content: "";
-                    width: 0;
-                    height: 2px;
-                    background-color: $primary_color;
-                    bottom: 25px;
-                    transition: .3s;
-                }
-                &:hover{
-                    color: $primary_color;
-                    &:before{
-                        width: 25px;
+                > a {
+                    display: block;
+                    padding: 30px 15px;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: 15px;
+                    position: relative;
+                    &:before {
+                        position: absolute;
+                        content: "";
+                        width: 0;
+                        height: 2px;
+                        background-color: $primary_color;
+                        bottom: 25px;
+                        transition: .3s;
                     }
-                }
-            }
-            ul {
-                position: absolute;
-                background-color: $primary_color;
-                z-index: 9;
-                width: 300px;
-                padding: 20px;
-                left: 15px;
-                opacity: 0;
-                visibility: hidden;
-                transition: .3s;
-                li{
-                    padding: 10px 0;
-                    color: #fff;
-                    a{
-                        color: #fff;
-                        padding: 0;
-                        font-size: 16px;
-                        text-transform: capitalize;
-                        &:hover {
-                            padding-left: 5px;
-                            color: #fff;
+                    &:hover{
+                        color: $primary_color;
+                        &:before{
+                            width: 25px;
                         }
                     }
                 }
-            }
-            &:hover{
-                ul{
-                    opacity: 1;
-                    visibility: visible;
-                }
-            }
-            &.has-child {
-                position: relative;
-                &:before {
-                    content: "\f107""";
-                    font-family: "Font Awesome 5 Free";
-                    font-weight: 700;
+                ul {
                     position: absolute;
-                    right: 0;
-                    top: 35px;
-                    font-size: 12px;
+                    background-color: $primary_color;
+                    z-index: 9;
+                    width: 300px;
+                    padding: 20px;
+                    left: 15px;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: .3s;
+                    li{
+                        padding: 10px 0;
+                        color: #fff;
+                        a{
+                            color: #fff;
+                            padding: 0;
+                            font-size: 16px;
+                            text-transform: capitalize;
+                            &:hover {
+                                padding-left: 5px;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+                &:hover{
+                    ul{
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+                &.has-child {
+                    position: relative;
+                    &:before {
+                        content: "\f107""";
+                        font-family: "Font Awesome 5 Free";
+                        font-weight: 700;
+                        position: absolute;
+                        right: 0;
+                        top: 35px;
+                        font-size: 12px;
+                    }
                 }
             }
         }

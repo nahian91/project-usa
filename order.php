@@ -17,28 +17,28 @@
 <section class="order">
    <div class="container">
       <div class="grid">
-         <div class="col-8">
+         <div class="col-12 col-sm-8">
             <form action="" method="">
                <div class="grid">
-                  <div class="col-6">
+                  <div class="col-12 col-sm-6">
                      <label>
                         <span class="order__label">First Name</span>
                         <input class="order__input" type="text" name="fname">
                      </label>
                   </div>
-                  <div class="col-6">
+                  <div class="col-12 col-sm-6">
                      <label>
                         <span class="order__label">Last Name</span>
                         <input class="order__input" type="text" name="lname">
                      </label>
                   </div>
-                  <div class="col-6">
+                  <div class="col-12 col-sm-6">
                      <label>
                         <span class="order__label">Company Name (Optional)</span>
                         <input class="order__input" type="text" name="cn">
                      </label>
                   </div>
-                  <div class="col-6">
+                  <div class="col-12 col-sm-6">
                      <label>
                         <span class="order__label">Country</span>
                         <select class="order__input" name="selection">
@@ -295,43 +295,37 @@
                         </select>
                      </label>
                   </div>
-                  <div class="col-6">
+                  <div class="col-12 col-sm-6">
                      <label>
                         <span class="order__label">Street Address</span>
                         <input class="order__input" type="text" name="houseadd" placeholder="House number and street name" required>
                      </label>
                   </div>
-                  <div class="col-6">
-                     <label>
-                        <span>&nbsp;</span>
-                        <input class="order__input" type="text" name="apartment" placeholder="Apartment, suite, unit etc. (optional)">
-                     </label>
-                  </div>
-                  <div class="col-6">
+                  <div class="col-12 col-sm-6">
                      <label>
                         <span class="order__label">Town / City</span>
                         <input class="order__input" type="text" name="city"> 
                      </label>
                   </div>
-                  <div class="col-6">
+                  <div class="col-12 col-sm-6">
                      <label>
                         <span class="order__label">State / County</span>
                         <input class="order__input" type="text" name="city"> 
                      </label>
                   </div>
-                  <div class="col-6">
+                  <div class="col-12 col-sm-6">
                      <label>
                         <span class="order__label">Postcode / ZIP</span>
                         <input class="order__input" type="text" name="city"> 
                      </label>
                   </div>
-                  <div class="col-6">
+                  <div class="col-12 col-sm-6">
                      <label>
                         <span class="order__label">Phone</span>
                         <input class="order__input" type="tel" name="city"> 
                      </label>
                   </div>
-                  <div class="col-6">
+                  <div class="col-12 col-sm-6">
                      <label>
                         <span class="order__label">Email Address</span>
                         <input class="order__input" type="email" name="city"> 
@@ -340,7 +334,7 @@
                </div>
             </form>
          </div>
-         <div class="col-4">
+         <div class="col-12 col-sm-4">
             <div class="order__summary">
                <h4 class="order__summary-title">Order Summary</h4>
                <ul>

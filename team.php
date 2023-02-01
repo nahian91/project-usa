@@ -19,7 +19,7 @@
 <section class="team">
     <div class="container">
         <div class="grid">
-            <div class="col-3">
+            <div class="col-md-4 col-lg-3">
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/1.jpg');"></div>
                     <div class="team__content">
@@ -28,7 +28,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-4 col-lg-3">
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/2.jpg');"></div>
                     <div class="team__content">
@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-4 col-lg-3">
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/3.jpg');"></div>
                     <div class="team__content">
@@ -46,7 +46,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-4 col-lg-3">
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/4.jpg');"></div>
                     <div class="team__content">
@@ -55,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-4 col-lg-3">
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/5.jpg');"></div>
                     <div class="team__content">
@@ -64,7 +64,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-4 col-lg-3">
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/6.jpg');"></div>
                     <div class="team__content">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-4 col-lg-3">
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/7.jpg');"></div>
                     <div class="team__content">
@@ -82,7 +82,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-4 col-lg-3">
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/8.jpg');"></div>
                     <div class="team__content">

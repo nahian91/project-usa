@@ -18,13 +18,13 @@
 <section class="team-profile">
     <div class="container">
         <div class="grid">
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
                 <div class="team-profile__info">
                     <img src="assets/img/1.jpg" alt="">
                     <h4>john doe <span>web developer</span></h4>
                 </div>
             </div>
-            <div class="col-8">
+            <div class="col-12 col-sm-8">
                 <div class="team-profile__skills">
                     <h4>Personal Biography</h4>
                     <p>Conveniently innovate professional initiatives whereas virtual information. Compellingly network resource maximizing materials without premier benefits. Phosfluorescently synthesize wireless solutions with robust e-business. Monotonectally implement functionalized ideas with technically sound process improvements. Dramatically disseminate vertical systems after.</p>

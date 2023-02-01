@@ -8,6 +8,16 @@
         margin-bottom: 25px;
         position: relative;
         padding-bottom: 15px;
+        @include min-medium{
+            font-size: 22px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+        }
+        @include min-large{
+            font-size: 26px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+        }
         &:before {
             position: absolute;
             content: "";
@@ -37,6 +47,18 @@
             &:hover {
                 background-color: $primary_color;
                 border-color: $primary_color;
+            }
+            @include min-medium{                
+                width: 25px;
+                height: 25px;
+                line-height: 25px;
+                font-size: 10px;
+            }
+            @include min-large{
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                font-size: 14px;
             }
         }
     }

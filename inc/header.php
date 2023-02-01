@@ -8,8 +8,10 @@
     <title>Project USA</title>
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="assets/css/plugins/font-awesome/css/font-awesome.min.css">
-    <!-- Slick CSS -->
+    <!-- Slick Slider CSS -->
     <link rel="stylesheet" href="assets/css/plugins/slick-slider/slick.css">
+    <!-- Slick Nav CSS -->
+    <link rel="stylesheet" href="assets/css/plugins/slick-nav/slick-nav.min.css">
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -18,13 +20,13 @@
     <section class="header-top">
         <div class="container">
             <div class="grid">
-                <div class="col-auto">
+                <div class="col-12 col-sm-6">
                     <div class="header-top__left">
                         <a href=""><i class="fa fa-envelope"></i> info@logo.com</a>
                         <a href=""><i class="fa fa-phone"></i> 23457689</a>
                     </div>
                 </div>
-                <div class="col-auto text-right">
+                <div class="col-12 col-sm-6 text-right">
                     <div class="header-top__social">
                         <a href="" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                         <a href="" target="_blank"><i class="fa-brands fa-twitter"></i></a>
@@ -41,11 +43,11 @@
    <header class="header">
     <div class="container">
         <div class="grid align-center">
-            <div class="col-md-2 col-bleed-y">
+            <div class="col-sm-2 col-bleed-y">
                 <a href="index.php" class="header__logo">logo</a>
             </div>
-            <div class="col-md-8 col-bleed-y">
-                <ul class="header__nav">
+            <div class="col-sm-8 col-bleed-y">
+                <ul class="header__nav" id="menu">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About Us</a></li>
                     <li class="has-child"><a href="services.php">Services</a>
@@ -59,7 +61,7 @@
                         </ul>
                     </li>
                     <li class="has-child">
-                       <a href="projects.php">Projects</a>
+                       <a href="#">Projects</a>
                        <ul class="sub-menu">
                           <li><a href="project-single.php">Point of Sale Software</a></li>
                           <li><a href="project-single.php">School & College Software</a></li>
@@ -76,7 +78,7 @@
                     <li><a href="contact.php">Contact</a></li>
                  </ul>
             </div>
-            <div class="col-md-2 col-bleed-y text-right">
+            <div class="col-sm-2 col-bleed-y text-right">
                 <div class="header__right">
                     <a href="login.php" class="btn btn-primary">Login</a>
                 </div>

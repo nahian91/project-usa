@@ -18,44 +18,44 @@
 <section class="dashboard">
     <div class="container">
         <div class="grid">
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
                 <ul class="dashboard__list">
                     <li class="dashboard__item"><a href="dashboard.php" class="dashboard__link">Dashboard</a></li>
                     <li class="dashboard__item"><a href="user-profile.php" class="dashboard__link">Profile</a></li>
                     <li class="dashboard__item"><a href="" class="dashboard__link">Logout</a></li>
                 </ul>
             </div>
-            <div class="col-8">
+            <div class="col-12 col-sm-8">
                 <div class="dashboard__single">
                     <div class="dashboard__count">
                         <h4 class="dashboard__title">Hi, Makhal Doe</h4>
                         <form action="">
                             <div class="grid">
-                                <div class="col-6">
+                                <div class="col-12 col-sm-6">
                                     <div class="dashboard__profile-input">
                                         <label for="">Name</label>
                                         <input type="text" placeholder="Your Name">
                                     </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-sm-6">
                                     <div class="dashboard__profile-input">
                                         <label for="">Email</label>
                                         <input type="text" placeholder="Your Email">
                                     </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-sm-6">
                                     <div class="dashboard__profile-input">
                                         <label for="">Current Password</label>
                                         <input type="password" placeholder="Current Password">
                                     </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-sm-6">
                                     <div class="dashboard__profile-input">
                                         <label for="">New Password</label>
                                         <input type="password" placeholder="New Password">
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 col-sm-6">
                                     <input type="submit" class="btn btn-primary" value="Save Changes">
                                 </div>
                             </div>

@@ -16,6 +16,8 @@ $(document).ready(function () {
     time: 1000,
   });
 
+  $('#menu').slicknav();
+
   var typed = new Typed(".team-title", {
     strings: ["See Our Skilled Expert Team"],
     smartBackspace: true, // Default value

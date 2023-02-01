@@ -2,8 +2,11 @@
     color: #fff;
     padding: 50px 0;
     &__title {
-        font-size: 45px;
+        font-size: 26px;
         text-transform: uppercase;
+        @include min-small{
+            font-size: 40px;
+        }
     }
     &__nav {
         display: flex;

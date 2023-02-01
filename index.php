@@ -52,7 +52,7 @@
 <section class="about">
     <div class="container">
         <div class="grid align-center">
-            <div class="col-7">
+            <div class="col-12 col-md-7">
                 <span class="about__subtitle">about us</span>
                 <h4 class="about__title">Product Development for Better Business</h4>
                 <p class="about__desc">There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form, by injected humour variations of the suffered alteration in some form. </p>
@@ -63,7 +63,7 @@
                 <span class="about__item"><i class="fa-solid fa-check-double"></i> Lorem consectetur purus ac aliquam aliquet.</span>
                 <a href="" class="btn btn-primary about__btn">read more</a>
             </div>
-            <div class="col-5">
+            <div class="col-12 col-md-5">
                 <div class="about__right">
                     <img class="about__img" src="assets/img/about.png" alt="">
                     <p class="about__text">since <br> 2016</p>
@@ -85,7 +85,7 @@
             </div>
         </div>
         <div class="grid">
-            <div class="col-4">
+            <div class="col-md-4 col-sm-6 col-12">
                 <div class="services__single">
                     <span class="services__number">01</span>
                     <i class="fa-solid fa-laptop services__icon"></i>
@@ -94,7 +94,7 @@
                     <a class="services__btn" href="">read more</a>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4 col-sm-6 col-12">
                 <div class="services__single">
                     <span class="services__number">02</span>
                     <i class="fa-solid fa-code services__icon"></i>
@@ -103,7 +103,7 @@
                     <a class="services__btn" href="">read more</a>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4 col-sm-6 col-12">
                 <div class="services__single">
                     <span class="services__number">03</span>
                     <i class="fa-solid fa-mobile services__icon"></i>
@@ -112,7 +112,7 @@
                     <a class="services__btn" href="">read more</a>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4 col-sm-6 col-12">
                 <div class="services__single">
                     <span class="services__number">04</span>
                     <i class="fa-solid fa-wand-magic-sparkles services__icon"></i>
@@ -121,7 +121,7 @@
                     <a class="services__btn" href="">read more</a>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4 col-sm-6 col-12">
                 <div class="services__single">
                     <span class="services__number">05</span>
                     <i class="fa-solid fa-wand-magic services__icon"></i>
@@ -130,7 +130,7 @@
                     <a class="services__btn" href="">read more</a>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4 col-sm-6 col-12">
                 <div class="services__single">
                     <span class="services__number">06</span>
                     <i class="fa-solid fa-clock services__icon"></i>
@@ -147,25 +147,25 @@
 <section class="counter bg" style="background-image: url('assets/img/breadcumb.jpg');">
     <div class="container">
         <div class="grid">
-            <div class="col-3">
+            <div class="col-6 col-sm-3">
                 <div class="counter__single">
                     <h4 class="counter__number">587</h4>
                     <p class="counter__title">projects</p>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-6 col-sm-3">
                 <div class="counter__single">
                     <h4 class="counter__number">28</h4>
                     <p class="counter__title">Customers</p>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-6 col-sm-3">
                 <div class="counter__single">
                     <h4 class="counter__number">9</h4>
                     <p class="counter__title">Awards</p>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-6 col-sm-3">
                 <div class="counter__single">
                     <h4 class="counter__number">5245</h4>
                     <p class="counter__title">cup of coffees</p>
@@ -187,7 +187,7 @@
             </div>
         </div>
         <div class="grid">
-            <div class="col-3">
+            <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/1.jpg');"></div>
                     <div class="team__content">
@@ -196,7 +196,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/2.jpg');"></div>
                     <div class="team__content">
@@ -205,7 +205,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/3.jpg');"></div>
                     <div class="team__content">
@@ -214,7 +214,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/4.jpg');"></div>
                     <div class="team__content">
@@ -223,7 +223,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/5.jpg');"></div>
                     <div class="team__content">
@@ -232,7 +232,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/6.jpg');"></div>
                     <div class="team__content">
@@ -241,7 +241,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/7.jpg');"></div>
                     <div class="team__content">
@@ -250,7 +250,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="team__single">
                     <div class="team__img" style="background-image: url('assets/img/8.jpg');"></div>
                     <div class="team__content">
@@ -271,10 +271,10 @@
 <section class="cta">
     <div class="container">
        <div class="grid align-center">
-          <div class="col-6">
+          <div class="col-12 col-sm-6">
              <h4>best solution for your business <span>the can be used on larger scale projectss as well as small scale projectss</span></h4>
           </div>
-          <div class="col-6 text-center">
+          <div class="col-12 col-sm-6 text-center">
              <a href="#" class="btn btn-primary">contact us</a>
           </div>
        </div>
@@ -292,7 +292,7 @@
             </div>
         </div>
         <div class="grid">
-            <div class="col-3">
+            <div class="col-12 col-sm-3">
                 <div class="process__single">
                     <img src="assets/img/arrow-1.png" class="process__img" alt="">
                     <span class="process__number">
@@ -302,7 +302,7 @@
                     <p class="process__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, ea?</p>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-sm-3">
                 <div class="process__single">
                     <img src="assets/img/arrow-1.png" class="process__img" alt="">
                     <span class="process__number">
@@ -312,7 +312,7 @@
                     <p class="process__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, ea?</p>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-sm-3">
                 <div class="process__single">
                     <img src="assets/img/arrow-1.png" class="process__img" alt="">
                     <span class="process__number">
@@ -322,7 +322,7 @@
                     <p class="process__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, ea?</p>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-sm-3">
                 <div class="process__single">
                     <span class="process__number">
                         04
@@ -346,7 +346,7 @@
             </div>
         </div>
         <div class="grid">
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
                 <div class="blog__single">
                     <div class="blog__img">
                         <img src="assets/img/blog-1.jpg" alt="">
@@ -363,7 +363,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
                 <div class="blog__single">
                     <div class="blog__img">
                         <img src="assets/img/blog-2.jpg" alt="">
@@ -380,7 +380,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
                 <div class="blog__single">
                     <div class="blog__img">
                         <img src="assets/img/blog-3.jpg" alt="">

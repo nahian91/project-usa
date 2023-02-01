@@ -18,7 +18,7 @@
 <section class="contact">
     <div class="container">
         <div class="grid align-center">
-            <div class="col-4 col-bleed-x">
+            <div class="col-12 col-sm-4 col-bleed-x">
                 <div class="contact__info bg" style="background-image: url('assets/img/home-two.jpg');">
                     <h4 class="contact__info-heading">Speak With <br> Expert Developers.</h4>
                     <ul class="contact__info-list">
@@ -49,26 +49,26 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-8 col-bleed-x">
+            <div class="col-12 col-sm-8 col-bleed-x">
                 <form action="" class="contact__form">
                     <h4 class="contact__form-title">Fill The Form Below</h4>
                     <div class="grid">
-                        <div class="col-6">
+                        <div class="col-12 col-sm-6">
                             <input type="text" class="contact__form-input" placeholder="Name">
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-sm-6">
                             <input type="email" class="contact__form-input" placeholder="Email">
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-sm-6">
                             <input type="text" class="contact__form-input" placeholder="Subject">
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-sm-6">
                             <input type="phone" class="contact__form-input" placeholder="Phone">
                         </div>
-                        <div class="col-12">
+                        <div class="col-12 col-sm-6">
                             <textarea class="contact__form-msg" placeholder="Message"></textarea>
                         </div>
-                        <div class="col-12">
+                        <div class="col-12 col-sm-6">
                             <input class="contact__form-submit" type="submit" value="Send Message">
                         </div>
                     </div>
