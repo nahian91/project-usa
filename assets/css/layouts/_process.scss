@@ -15,6 +15,7 @@
     &__img {
         display: none;
         @include min-small{
+            display: block;
             position: absolute;
             right: -100px;
             top: -40px;

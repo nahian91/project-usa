@@ -16,7 +16,7 @@
     left: 0;
     top: 0;
   }
-  :after {
+  &:after {
     position: absolute;
     content: "";
     width: 50%;

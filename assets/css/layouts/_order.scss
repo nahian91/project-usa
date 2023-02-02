@@ -19,6 +19,13 @@
     background-color: #f4f4f4;
     border: 1px solid #ddd;
     padding: 15px;
+    ul{
+      li{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+      }
+    }
   }
   &__summary-title {
     font-size: 20px;

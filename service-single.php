@@ -24,56 +24,56 @@
                         <div class="single-service__box">
                             <span class="single-service__icon">Website</span>
                             <h4 class="single-service__box-title">Experience</h4>
-                            <a href="" class="single-service__link">View Details</a>
+                            <a href="project-single.php" class="single-service__link">View Details</a>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6">
                         <div class="single-service__box">
                             <span class="single-service__icon">Website</span>
                             <h4 class="single-service__box-title">Experience</h4>
-                            <a href="" class="single-service__link">View Details</a>
+                            <a href="project-single.php" class="single-service__link">View Details</a>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6">
                         <div class="single-service__box">
                             <span class="single-service__icon">Website</span>
                             <h4 class="single-service__box-title">Experience</h4>
-                            <a href="" class="single-service__link">View Details</a>
+                            <a href="project-single.php" class="single-service__link">View Details</a>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6">
                         <div class="single-service__box">
                             <span class="single-service__icon">Website</span>
                             <h4 class="single-service__box-title">Experience</h4>
-                            <a href="" class="single-service__link">View Details</a>
+                            <a href="project-single.php" class="single-service__link">View Details</a>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6">
                         <div class="single-service__box">
                             <span class="single-service__icon">Website</span>
                             <h4 class="single-service__box-title">Experience</h4>
-                            <a href="" class="single-service__link">View Details</a>
+                            <a href="project-single.php" class="single-service__link">View Details</a>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6">
                         <div class="single-service__box">
                             <span class="single-service__icon">Website</span>
                             <h4 class="single-service__box-title">Experience</h4>
-                            <a href="" class="single-service__link">View Details</a>
+                            <a href="project-single.php" class="single-service__link">View Details</a>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6">
                         <div class="single-service__box">
                             <span class="single-service__icon">Website</span>
                             <h4 class="single-service__box-title">Experience</h4>
-                            <a href="" class="single-service__link">View Details</a>
+                            <a href="project-single.php" class="single-service__link">View Details</a>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6">
                         <div class="single-service__box">
                             <span class="single-service__icon">Website</span>
                             <h4 class="single-service__box-title">Experience</h4>
-                            <a href="" class="single-service__link">View Details</a>
+                            <a href="project-single.php" class="single-service__link">View Details</a>
                         </div>
                     </div>
                 </div>
