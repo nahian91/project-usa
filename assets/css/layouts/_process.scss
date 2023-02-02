@@ -1,19 +1,31 @@
 .process {
     background-color: #fff;
-    padding: 100px 0;
+    padding: 40px 0;
+    @include min-small{
+        padding: 120px 0;
+    }
     &__single {
         text-align: center;
         position: relative;
-        margin-top: 60px;
+        margin-top: 0;
+        @include min-small{
+            margin-top: 60px;
+        }
     }
     &__img {
-        position: absolute;
-        right: -100px;
-        top: -40px;
+        display: none;
+        @include min-small{
+            position: absolute;
+            right: -100px;
+            top: -40px;
+        }
     }
     &__number {
-        font-size: 65px;
+        font-size: 50px;
         font-weight: 700;
+        @include min-small{
+            margin-top: 65px;
+        }
     }
     &__title {
         text-transform: capitalize;

@@ -43,10 +43,10 @@
    <header class="header">
     <div class="container">
         <div class="grid align-center">
-            <div class="col-sm-2 col-bleed-y">
+            <div class="col-sm-2 col-6 col-bleed-y">
                 <a href="index.php" class="header__logo">logo</a>
             </div>
-            <div class="col-sm-8 col-bleed-y">
+            <div class="col-sm-8 col-1 col-bleed-y">
                 <ul class="header__nav" id="menu">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About Us</a></li>
@@ -78,7 +78,7 @@
                     <li><a href="contact.php">Contact</a></li>
                  </ul>
             </div>
-            <div class="col-sm-2 col-bleed-y text-right">
+            <div class="col-sm-2 col-5 col-bleed-y text-right">
                 <div class="header__right">
                     <a href="login.php" class="btn btn-primary">Login</a>
                 </div>

@@ -1,5 +1,8 @@
 .single-project {
-  padding: 100px 0;
+  padding: 40px 0;
+    @include min-small{
+        padding: 100px 0;
+    }
   &__featured {
     width: 100%;
     border: 1px solid #ddd;
@@ -10,11 +13,14 @@
   }
   &__title {
     text-transform: capitalize;
-    font-size: 28px;
+    font-size: 22px;
     margin-bottom: 15px;
     font-weight: 600;
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
+    @include min-small{
+      font-size: 28px;
+    }
   }
   &__gallery {
     margin-top: -25px;

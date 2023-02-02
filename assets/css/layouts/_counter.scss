@@ -1,6 +1,6 @@
 .counter {
     padding: 60px 0;
-    .col-3{
+    .col-sm-3{
         border-right: 1px solid #777;
         &:last-child{
             border-right: 0;
@@ -10,7 +10,10 @@
         text-align: center;
     }
     &__number {
-        font-size: 60px;
+        font-size: 40px;
+        @include min-small{
+            font-size: 60px;
+        }
     }
     &__title {
         text-transform: capitalize;

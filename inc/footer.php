@@ -60,7 +60,7 @@
         <div class="container">
             <div class="grid align-center">
                 <div class="col-sm-4">
-                    <div class="footer-bottom_copy">
+                    <div class="footer-bottom__copy">
                         <p>&copy; 2023. All Rights Reserved.</p>
                     </div>
                 </div>

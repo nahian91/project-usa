@@ -96,22 +96,38 @@
     background-color: #111;
     color: #fff;
     padding: 10px 0;
+    &__copy{
+        text-align: center;
+        @include min-small{
+            text-align: left;
+        }
+    }
     &__link {
         color: #fff;
-        margin-left: 20px;
+        font-size: 14px;
+        margin-left: 0;
+        margin: 0 5px;
         position: relative;
+        @include min-small {
+            margin-left: 20px;
+            font-size: 16px;
+        }
         &:hover{
             color: $primary_color;
         }
         &:before {
-            content: "";
-            position: absolute;
-            width: 5px;
-            height: 5px;
-            background-color: $primary_color;
-            border-radius: 50%;
-            left: -15px;
-            top: 10px;
+            display: none;
+            @include min-small{
+                display: block;
+                content: "";
+                position: absolute;
+                width: 5px;
+                height: 5px;
+                background-color: $primary_color;
+                border-radius: 50%;
+                left: -15px;
+                top: 10px;
+            }
         }
     }
 }

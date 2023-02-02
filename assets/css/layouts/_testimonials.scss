@@ -1,5 +1,8 @@
 .testimonial{
-    padding: 120px 0;
+    padding: 40px 0;
+    @include min-small{
+        padding: 120px 0;
+    }
     &__single {
         text-align: center;
         background-color: #111;
