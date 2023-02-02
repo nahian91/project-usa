@@ -5,10 +5,10 @@
     <div class="container">
         <div class="grid">
             <div class="col-12 text-center">
-                <h4 class="breadcumb__title">Dashboard</h4>
+                <h4 class="breadcumb__title">Track Order</h4>
                 <ul class="breadcumb__nav">
                     <li class="breadcumb__list"><a href="" class="breadcumb__link">Home</a></li>
-                    <li class="breadcumb__list">Dashboard</li>
+                    <li class="breadcumb__list">Track Order</li>
                 </ul>
             </div>
         </div>
@@ -28,13 +28,25 @@
             </div>
             <div class="col-12 col-sm-8">
                 <div class="dashboard__single">
-                    <div class="dashboard__count">
-                        <h4 class="dashboard__title">Point of Sale Software</h4>
-                        <div id="timer" data-endtime="25 june 2023 10:00:00 GMT+01:00"></div>
-                    </div>
-                    <div class="dashboard__right">
-                        <a href="" class="btn btn-primary">Invoice</a>
-                    </div>
+                    <h4 class="dashboard__title">Track Order</h4>
+                    <form action="" class="dashboard__track">
+                        <input type="text" class="dashboard__track-input" placeholder="Order ID">
+                        <input type="submit" class="dashboard__track-btn btn btn-primary" value="Check Status">
+                    </form>
+                    <table class="dashboard__track-info">
+                        <tr>
+                            <th>ID</th>
+                            <th>Project Name</th>
+                            <th>Total Percentage</th>
+                            <th>Expected Delivary</th>
+                        </tr>
+                        <tr>
+                            <td>et0123454</td>
+                            <td>Point of sale</td>
+                            <td>78%</td>
+                            <td>30 March 2023</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>

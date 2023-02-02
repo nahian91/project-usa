@@ -85,3 +85,28 @@
   font-size: 22px;
   font-weight: 500;
 }
+
+.dashboard__track {
+  position: relative;
+}
+.dashboard__track-input {
+  width: 50% !important;
+  border: 1px solid #ddd;
+}
+.dashboard__track-btn {
+  position: absolute;
+  right: 320px !important;
+  font-family: 'Poppins';
+  padding: 6px 20px !important;
+}
+.dashboard__track-info {
+  text-align: left;
+  margin-top: 30px;
+}
+.dashboard__track-info td, .dashboard__track-info th {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+.dashboard__track-info {
+  border-collapse: collapse;
+}
