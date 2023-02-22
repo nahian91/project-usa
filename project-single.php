@@ -41,12 +41,12 @@
                      </div>
                   </div>
                 </div>
-                <br><br>
-                <div class="grid">
-                   <div class="col-12">
-                        <h4 class="single-project__title">project overview</h4>
-                        <iframe src="https://www.youtube.com/embed/jssO8-5qmag" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
-                   </div>
+                <br>
+                <br>
+                <div class="single-service__promo" style="background-image: url('assets/img/cherrydeck-rMILC1PIwM0-unsplash.jpg');">
+                    <span class="single-service__promo-sub">need more?</span>
+                    <h4 class="single-service__promo-title">need custom Project?</h4>
+                    <a href="" class="btn btn-primary">get quote</a>
                 </div>
             </div>
             <div class="col-12 col-sm-4">
