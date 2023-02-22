@@ -1627,10 +1627,6 @@ body {
   color: #333;
   opacity: 1;
 }
-.bannar__input input:-ms-input-placeholder, .bannar__input select:-ms-input-placeholder, .bannar__input textarea:-ms-input-placeholder {
-  color: #333;
-  opacity: 1;
-}
 .bannar__input input::placeholder, .bannar__input select::placeholder, .bannar__input textarea::placeholder {
   color: #333;
   opacity: 1;
@@ -2059,6 +2055,10 @@ body {
   font-size: 40px;
   margin: 20px 0px;
   line-height: 50px;
+}
+
+.single-project__sidebar form {
+  padding: 0;
 }
 
 .counter {

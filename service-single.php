@@ -15,74 +15,44 @@
     </div>
 </section>
 
-<section class="single-service">
+<section class="single-project">
     <div class="container">
         <div class="grid">
-            <div class="col-12 col-sm-8">
-                <div class="grid">
-                    <div class="col-12 col-sm-6">
-                        <div class="single-service__box">
-                            <span class="single-service__icon">Website</span>
-                            <h4 class="single-service__box-title">Experience</h4>
-                            <a href="project-single.php" class="single-service__link">View Details</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <div class="single-service__box">
-                            <span class="single-service__icon">Website</span>
-                            <h4 class="single-service__box-title">Experience</h4>
-                            <a href="project-single.php" class="single-service__link">View Details</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <div class="single-service__box">
-                            <span class="single-service__icon">Website</span>
-                            <h4 class="single-service__box-title">Experience</h4>
-                            <a href="project-single.php" class="single-service__link">View Details</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <div class="single-service__box">
-                            <span class="single-service__icon">Website</span>
-                            <h4 class="single-service__box-title">Experience</h4>
-                            <a href="project-single.php" class="single-service__link">View Details</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <div class="single-service__box">
-                            <span class="single-service__icon">Website</span>
-                            <h4 class="single-service__box-title">Experience</h4>
-                            <a href="project-single.php" class="single-service__link">View Details</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <div class="single-service__box">
-                            <span class="single-service__icon">Website</span>
-                            <h4 class="single-service__box-title">Experience</h4>
-                            <a href="project-single.php" class="single-service__link">View Details</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <div class="single-service__box">
-                            <span class="single-service__icon">Website</span>
-                            <h4 class="single-service__box-title">Experience</h4>
-                            <a href="project-single.php" class="single-service__link">View Details</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <div class="single-service__box">
-                            <span class="single-service__icon">Website</span>
-                            <h4 class="single-service__box-title">Experience</h4>
-                            <a href="project-single.php" class="single-service__link">View Details</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-7">
+                <img class="single-project__featured" src="assets/img/project-1.jpg" alt="">
+                <p class="single-project__list">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
             </div>
-            <div class="col-12 col-sm-4">
-                <div class="single-service__promo" style="background-image: url('assets/img/cherrydeck-rMILC1PIwM0-unsplash.jpg');">
-                    <span class="single-service__promo-sub">need more?</span>
-                    <h4 class="single-service__promo-title">need custom Project?</h4>
-                    <a href="" class="btn btn-primary">get quote</a>
+            <div class="col-5">
+                <div class="single-project__sidebar">
+                    <h4 class="single-project__title">Get a Quote</h4>
+                    <form class="bannar__form">
+                        <div class="bannar__input">
+                            <input type="text" placeholder="Name">
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+                        <div class="bannar__input">
+                            <input type="email" placeholder="Email">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div class="bannar__input">
+                            <input type="text" placeholder="Phone">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="bannar__input">
+                            <select>
+                                <option value="">Select Subject</option>
+                                <option value="">Web Design / Development</option>
+                                <option value="">Software Development</option>
+                                <option value="">Digital Marketing</option>
+                                <option value="">IT Consultancy</option>
+                            </select>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="bannar__input">
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <input class="bannar__input-btn" type="submit" value="get quote">
+                    </form>
                 </div>
             </div>
         </div>
